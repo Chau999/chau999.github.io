@@ -7,4 +7,5 @@ year: 2022
 pdf: https://proceedings.mlr.press/v151/lun-chau22a/lun-chau22a.pdf
 code:
 doi:
+video: https://slideslive.at/38980474/learning-inconsistent-preferences-with-gaussian-processes?ref=speaker-30833
 ---

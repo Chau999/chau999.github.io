@@ -17,7 +17,7 @@ University of Oxford, under the supervision of [Prof. Dino Sejdinovic](https://s
 [Prof. Mihai Cucuringu](http://www.stats.ox.ac.uk/~cucuring/)
 and [Prof. Xiaowen Dong](https://web.media.mit.edu/~xdong/). 
 During my DPhil, I have interned at [Amazon Transportation Service group](https://www.amazon.jobs/de/business_categories/transport)
-as an Applied Scientist working on coherent forecasting challenges for EU logistics network.
+as an Applied Scientist working on coherent forecasting challenges for the EU logistics network.
 I have also interned at the [Max Planck Institute for Intelligent Systems](https://ei.is.mpg.de/) where I 
 worked on improving econometric models with modern machine learning methods. I previously obtained
 a masters and bachelor degree with first class honours in mathematics and statistics at the University of Oxford. During my masters,

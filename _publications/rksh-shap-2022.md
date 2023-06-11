@@ -7,4 +7,5 @@ year: 2022
 pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/54bb63eaec676b87a2278a22b1bd02a2-Paper-Conference.pdf
 code: https://github.com/Chau999/RKHS-SHAP
 doi:
+video: https://www.youtube.com/watch?v=olmSYH-daG0
 ---

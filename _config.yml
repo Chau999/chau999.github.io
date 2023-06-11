@@ -35,6 +35,7 @@ plugins:
 
 header_pages:
   - tabs/publication.md
+  - tabs/talk.md
   - tabs/experience.md
 
 collections:
@@ -42,6 +43,9 @@ collections:
     output: true
     permalink: /:collection/:name
   experiences:
+    output: true
+    permalink: /:collection/:name
+  talks:
     output: true
     permalink: /:collection/:name
 
