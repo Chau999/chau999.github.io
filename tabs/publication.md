@@ -4,23 +4,6 @@ title: Publication
 permalink: /pubs/
 ---
 
-<style>
-.pubitem {
-  margin: 0em 0;
-  line-height: 1em;
-}
-.pubtitle {
-  margin-bottom: 0.5em;
-  line-height: 1.2em;
-  font-weight: bold;
-}
-.pubauthors,
-.pubinfo {
-  font-size: 75%;
-  margin-bottom: 0.75em;
-}
-</style>
-
 {% assign publications = site.publications | sort: "year" | reverse %}
 {% for pub in publications %}
   <div class="pubitem">
@@ -28,7 +11,31 @@ permalink: /pubs/
       {{forloop.rindex}}. {{ pub.title }}
     </div>
     <div class="pubauthors">{{ pub.authors }}</div>
-    <div class="pubinfo">{{ pub.venue }}, {{ pub.year }}</div>
-  <br>
+    <div class="pubinfo">
+        {{ pub.venue }}, {{ pub.year }}
+    </div>
+    <div class="publinks">
+      {% if pub.pdf %}
+            <a href="{{ pub.pdf }}">
+              <span class="border"> PDF </span> 
+            </a>
+          {% endif %}
+      {% if pub.code %}
+        <a href="{{ pub.code }}">
+        <span class="border"> Code </span>
+        </a>
+      {% endif %}
+      {% if pub.video %}
+        <a href="{{ pub.video }}">
+          <i class="fab fa-youtube"></i>
+        </a>
+      {% endif %}
+      {% if pub.poster %}
+        <a href="{{ pub.poster }}">
+          <i class="fas fa-image"></i>
+        </a>
+      {% endif %}
+    </div>
 </div>
+<br>
 {% endfor %}
