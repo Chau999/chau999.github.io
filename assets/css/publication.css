@@ -1,0 +1,36 @@
+.pubitem {
+    margin: 0em 0;
+    line-height: 1em;
+}
+
+.pubtitle {
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+
+.pubauthors {
+    font-size: 75%;
+    margin-bottom: 0.5em;
+}
+
+.pubinfo {
+    font-size: 75%;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+
+.border {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #287EC7;
+    padding: 4px;
+    margin: 0 1px;
+    text-align: center;
+}
+
+.publinks {
+    font-size: 75%;
+}
