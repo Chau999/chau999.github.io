@@ -8,12 +8,10 @@ position: Postdoctoral Researcher
 location: CISPA Helmholtz Center for Information Security
 ---
 
-
-## About Me 
+## Hello <i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i>
 
 I am currently a postdoctoral researcher at the [CISPA Helmholtz Center for Information Security](https://cispa.de) working with
-[Dr. Krikamol Muandet](http://group.krikamol.org/) in Saarbrücken, Germany. My research focuses on improving the
-reliability of machine learning algorithms by integrating principles from economics and statistics. Prior to joining CISPA,
+[Dr. Krikamol Muandet](http://group.krikamol.org/) in Saarbrücken, Germany. Prior to joining CISPA,
 I pursued my DPhil within the [Oxford Computational Statisics and Machine Learning Group](https://csml.stats.ox.ac.uk/) at the
 University of Oxford, under the supervision of [Prof. Dino Sejdinovic](https://sejdino.github.io/),
 [Prof. Mihai Cucuringu](http://www.stats.ox.ac.uk/~cucuring/)
@@ -24,3 +22,10 @@ I have also interned at the [Max Planck Institute for Intelligent Systems](https
 worked on improving econometric models with modern machine learning methods. I previously obtained
 a masters and bachelor degree with first class honours in mathematics and statistics at the University of Oxford. During my masters,
 I worked with [Prof. Mihaela Van Der Schaar](https://www.vanderschaar-lab.com/) on disease trajectory modelling with Bayesian nonparametric models.
+
+My current research focuses on improving the reliability of machine learning algorithms by integrating principles from game theory and statistical methodologies. 
+I have also worked on broader areas of machine learning including model explainability and uncertainty quantification,
+kernel methods and Gaussian processes, causal inference and econometrics, ranking and preference learning, and graph machine learning. 
+
+Do not hesitate to reach out if you would like to collaborate, I am always excited to hear from you :)
+
