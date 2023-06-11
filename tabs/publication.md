@@ -4,6 +4,8 @@ title: Publication
 permalink: /pubs/
 ---
 
+*, † denote equal contributions. 
+
 {% assign publications = site.publications | sort: "year" | reverse %}
 {% for pub in publications %}
   <div class="pubitem">

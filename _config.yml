@@ -35,9 +35,13 @@ plugins:
 
 header_pages:
   - tabs/publication.md
+  - tabs/experience.md
 
 collections:
   publications:
+    output: true
+    permalink: /:collection/:name
+  experiences:
     output: true
     permalink: /:collection/:name
 
