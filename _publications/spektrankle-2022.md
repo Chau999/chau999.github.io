@@ -7,4 +7,5 @@ year: 2022
 pdf: https://arxiv.org/pdf/2005.04035.pdf
 code: https://github.com/Chau999/SpectralRankingWithCovariates
 doi:
+preprint: "false"
 ---
