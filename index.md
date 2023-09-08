@@ -33,3 +33,12 @@ kernel methods and Gaussian processes, causal inference and econometrics, rankin
 <p align="justify">
 Do not hesitate to reach out if you would like to collaborate, I am always excited to hear from you :)
 </p>
+
+<br>
+
+
+## Updates 🔔
+{% assign news = site.news | sort: "date" | reverse %}
+{% for new in news limit: 5 %}
+{{ new.date |date: "%b-%Y" }}: {{ new.blob }}
+{% endfor %}

@@ -39,6 +39,8 @@ header_pages:
   - tabs/experience.md
 
 collections:
+  news:
+    output: true
   publications:
     output: true
     permalink: /:collection/:name
