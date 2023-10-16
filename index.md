@@ -40,7 +40,7 @@ Do not hesitate to reach out if you would like to collaborate, I am always excit
 ## Updates 🔔
 {% assign news = site.news | sort: "date" | reverse %}
 <ul>
-{% for new in news limit: 4 %}
+{% for new in news limit: 5 %}
 <li>{{ new.date |date: "%b-%Y" }}: {{ new.blob }}</li>
 {% endfor %}
 </ul>
