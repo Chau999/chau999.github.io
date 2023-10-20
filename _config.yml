@@ -35,8 +35,8 @@ plugins:
 
 header_pages:
   - tabs/publication.md
-  - tabs/talk.md
-  - tabs/experience.md
+#  - tabs/talk.md
+#  - tabs/experience.md
 
 collections:
   news:
