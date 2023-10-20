@@ -11,8 +11,8 @@ location: CISPA Helmholtz Center for Information Security
 ## Hello <i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i>
 
 <p align="justify">
-I am currently a postdoctoral researcher at the <a href="https://cispa.de">CISPA Helmholtz Center for Information Security</a> working with
-<a href="http://group.krikamol.org/">Dr. Krikamol Muandet</a> in Saarbrücken, Germany. Prior to joining CISPA,
+I am a postdoctoral researcher at the <a href="https://cispa.de">CISPA Helmholtz Center for Information Security</a> working with
+<a href="http://group.krikamol.org/">Dr. Krikamol Muandet</a> on Trustworthy Machine Learning in Saarbrücken, Germany. Prior to joining CISPA,
 I pursued my DPhil within the <a href="https://csml.stats.ox.ac.uk/">Oxford Computational Statisics and Machine Learning Group</a> at the
 University of Oxford, under the supervision of <a href="https://sejdino.github.io/">Prof. Dino Sejdinovic</a>,
 <a href="http://www.stats.ox.ac.uk/~cucuring/">Prof. Mihai Cucuringu</a> and <a href="https://web.media.mit.edu/~xdong/">Prof. Xiaowen Dong</a>. 
@@ -25,13 +25,13 @@ I worked with <a href="https://www.vanderschaar-lab.com/">Prof. Mihaela Van Der 
 </p>
 
 <p align="justify">
-My current research focuses on improving the reliability of machine learning algorithms by integrating principles from game theory and statistical methodologies. 
-I have also worked on broader areas of machine learning including model explainability and uncertainty quantification,
+My current research focuses on improving the reliability of machine learning algorithms by advocating for more expressive and interpretable uncertainty quantification methods, drawing inspiration from 
+the vast literature on imprecise probability (Yes there are more to uncertainty than probability theory). I have also worked on broader areas of machine learning including model explainability and cooperative game theory,
 kernel methods and Gaussian processes, causal inference and econometrics, ranking and preference learning, and graph machine learning. 
 </p>
 
 <p align="justify">
-Do not hesitate to reach out if you would like to collaborate, I am always excited to hear from you :)
+Please do not hesitate to reach out if you would like to collaborate, I am always excited to hear from you :)
 </p>
 
 <br>
