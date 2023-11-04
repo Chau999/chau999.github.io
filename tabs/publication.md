@@ -4,7 +4,7 @@ title: Publications
 permalink: /pubs/
 ---
 
-### <ins>Published</ins>
+#### <ins>Preprints</ins>
 
 {% assign publications = site.publications | where: "preprint", "true" | sort: "year" | reverse %}
 {% for pub in publications%}
@@ -42,8 +42,7 @@ permalink: /pubs/
 <br>
 {% endfor %}
 
-### <ins>Published</ins>
-
+#### <ins>Published</ins>
 {% assign publications = site.publications | where: "preprint", "false" | sort: "year" | reverse %}
 {% for pub in publications%}
   <div class="pubitem">
@@ -79,14 +78,3 @@ permalink: /pubs/
 </div>
 <br>
 {% endfor %}
-
-<script>
-function toggleContent(id) {
-  var content = document.getElementById(id);
-  if (content.style.display === "none" || content.style.display === "") {
-    content.style.display = "block";
-  } else {
-    content.style.display = "none";
-  }
-}
-</script>
