@@ -8,4 +8,5 @@ pdf: https://proceedings.neurips.cc/paper/2021/file/1ca5c750a30312d1919ae6a4d636
 code: 
 video: https://slideslive.com/38968202/bayesimp-uncertainty-quantification-for-causal-data-fusion?ref=recommended
 preprint: "false"
+bib: "hi"
 ---
