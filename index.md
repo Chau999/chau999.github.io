@@ -36,11 +36,17 @@ Please do not hesitate to reach out if you would like to collaborate, I am alway
 
 <br>
 
+<style>
+.small-text {
+    font-size: 0.9em;
+}
+</style>
 
 ## Updates 🔔
+<div class="small-text">
 {% assign news = site.news | sort: "date" | reverse %}
 <ul>
-{% for new in news limit: 5 %}
+{% for new in news limit: 100 %}
 <li>({{ new.date |date: "%b-%Y" }})  {{ new.blob }}</li>
 {% endfor %}
 </ul>
