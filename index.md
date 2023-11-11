@@ -12,7 +12,7 @@ location: CISPA Helmholtz Center for Information Security
 
 <p align="justify">
 I am a postdoctoral researcher at the <a href="https://cispa.de">CISPA Helmholtz Center for Information Security</a> working with
-<a href="http://group.krikamol.org/">Dr. Krikamol Muandet</a> on Trustworthy Machine Learning in Saarbrücken, Germany. Prior to joining CISPA,
+<a href="[http://group.krikamol.org/](https://ri-lab.org/)">Dr. Krikamol Muandet</a> on Trustworthy Machine Learning in Saarbrücken, Germany. Prior to joining CISPA,
 I pursued my DPhil within the <a href="https://csml.stats.ox.ac.uk/">Oxford Computational Statisics and Machine Learning Group</a> at the
 University of Oxford, under the supervision of <a href="https://sejdino.github.io/">Prof. Dino Sejdinovic</a>,
 <a href="http://www.stats.ox.ac.uk/~cucuring/">Prof. Mihai Cucuringu</a> and <a href="https://web.media.mit.edu/~xdong/">Prof. Xiaowen Dong</a>. 
