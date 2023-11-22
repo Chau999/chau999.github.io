@@ -8,6 +8,23 @@ position: Postdoctoral Researcher
 location: CISPA Helmholtz Center for Information Security
 ---
 
+
+<style>
+.small-text {
+    font-size: 0.9em;
+}
+        dt {
+            float: left;
+            clear: left;
+            width: 100px;
+            text-align: left;
+            font-weight: bold;
+        }
+        dd {
+            margin-left: 120px; /* Adjust this value for tab distance */
+        }
+</style>
+
 ## Hello <i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i>
 
 <p align="justify">
@@ -25,7 +42,7 @@ I worked with <a href="https://www.vanderschaar-lab.com/">Prof. Mihaela Van Der 
 </p>
 
 <p align="justify">
-My current research focuses on improving the reliability of machine learning algorithms by advocating for more expressive and interpretable uncertainty quantification methods, drawing inspiration from 
+<b>Research Interests.</b> My current research focuses on improving the reliability of machine learning algorithms by advocating for more expressive and interpretable uncertainty quantification methods, drawing inspiration from 
 the vast literature on imprecise probability (Yes there are more to uncertainty than probability theory). I have also worked on broader areas of machine learning including model explainability and cooperative game theory,
 kernel methods and Gaussian processes, causal inference and econometrics, ranking and preference learning, and graph machine learning. 
 </p>
@@ -36,17 +53,29 @@ Please do not hesitate to reach out if you would like to collaborate, I am alway
 
 <br>
 
-<style>
-.small-text {
-    font-size: 0.9em;
-}
-</style>
-
-## Updates 🔔
+### Upcoming/Recent Talks 🗣️
+{% assign talks = site.talks | sort: "date" | reverse %}
 <div class="small-text">
-{% assign news = site.news | sort: "date" | reverse %}
-<ul>
-{% for new in news limit: 100 %}
-<li>({{ new.date |date: "%b-%Y" }})  {{ new.blob }}</li>
+<dl>
+{% for talk in talks limit: 5 %}
+<dt>{{ talk.date |date: "%b-%Y"}}</dt>
+<dd><b>{{ talk.talk_title }}</b> 
+<br> - <i>{{talk.venue}}</i></dd>
 {% endfor %}
-</ul>
+</dl>
+</div>
+
+<br>
+
+### Recent News 🔔
+
+{% assign news = site.news | sort: "date" | reverse %}
+<div class="small-text">
+<dl>
+{% for new in news limit: 100 %}
+<dt>{{ new.date |date: "%b-%Y"}}</dt>
+<dd>{{ new.blob }}</dd>
+{% endfor %}
+</dl>
+
+
