@@ -74,7 +74,7 @@ Please do not hesitate to reach out if you would like to collaborate, I am alway
 <dl>
 {% for new in news limit: 100 %}
 <dt>{{ new.date |date: "%b-%Y"}}</dt>
-<dd>{{ new.blob }}</dd>
+<dd>{{ new.content }}</dd>
 {% endfor %}
 </dl>
 
