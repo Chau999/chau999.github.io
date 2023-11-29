@@ -4,11 +4,30 @@ title: Publications
 permalink: /pubs/
 ---
 
+<style>
+.small-text {
+    font-size: 0.9em;
+}
+        dt {
+            float: left;
+            clear: left;
+            width: 100px;
+            text-align: left;
+            color: royalblue;
+        }
+        dd {
+            margin-left: 120px; /* Adjust this value for tab distance */
+        }
+</style>
+
 #### <ins>Preprints</ins>
 
 {% assign publications = site.publications | where: "preprint", "true" | sort: "year" | reverse %}
 {% for pub in publications%}
   <div class="pubitem">
+    <dl>
+    <dt>{{pub.venue_short}}</dt>
+    <dd>
     <div class="pubtitle">
       {{forloop.rindex}}. {{ pub.title }}
     </div>
@@ -38,7 +57,10 @@ permalink: /pubs/
         </a>
       {% endif %}
     </div>
+    </dd>
+    </dl>
 </div>
+
 <br>
 {% endfor %}
 
@@ -46,6 +68,9 @@ permalink: /pubs/
 {% assign publications = site.publications | where: "preprint", "false" | sort: "year" | reverse %}
 {% for pub in publications%}
   <div class="pubitem">
+    <dl>
+    <dt>{{pub.venue_short}}</dt>
+    <dd>
     <div class="pubtitle">
       {{forloop.rindex}}. {{ pub.title }}
     </div>
@@ -75,6 +100,8 @@ permalink: /pubs/
         </a>
       {% endif %}
     </div>
+    </dd>
+    </dl>
 </div>
 <br>
 {% endfor %}

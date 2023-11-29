@@ -57,7 +57,7 @@ Please do not hesitate to reach out if you would like to collaborate, I am alway
 {% assign talks = site.talks | sort: "date" | reverse %}
 <div class="small-text">
 <dl>
-{% for talk in talks limit: 5 %}
+{% for talk in talks limit: 10 %}
 <dt>{{ talk.date |date: "%b-%Y"}}</dt>
 <dd><b>{{ talk.talk_title }}</b> 
 <br> - <i>{{talk.venue}}</i></dd>
@@ -67,7 +67,7 @@ Please do not hesitate to reach out if you would like to collaborate, I am alway
 
 <br>
 
-### Recent News 🔔
+### Recent Updates 🔔
 
 {% assign news = site.news | sort: "date" | reverse %}
 <div class="small-text">
