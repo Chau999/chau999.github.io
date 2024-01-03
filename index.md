@@ -42,9 +42,8 @@ I worked with <a href="https://www.vanderschaar-lab.com/">Prof. Mihaela Van Der 
 </p>
 
 <p align="justify">
-<b>Research Interests.</b> My current research focuses on improving the reliability of machine learning algorithms by advocating for more expressive and interpretable uncertainty quantification methods, drawing inspiration from 
-the vast literature on imprecise probability (Yes there are more to uncertainty than probability theory). I have also worked on broader areas of machine learning including model explainability and cooperative game theory,
-kernel methods and Gaussian processes, causal inference and econometrics, ranking and preference learning, and graph machine learning. 
+<b>Research Interests.</b> My research aims to enhance machine learning models’ ability to explain what they know (explainability) and be explicit about what they don’t know (uncertainty modelling). I have also worked on broader areas of 
+machine learning including Bayesian kernel methods, Gaussian processes, Causal Inference, Preference Learning, and Graph ML.
 </p>
 
 <p align="justify">
