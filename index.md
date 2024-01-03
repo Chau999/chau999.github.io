@@ -51,6 +51,8 @@ kernel methods and Gaussian processes, causal inference and econometrics, rankin
 Please do not hesitate to reach out if you would like to collaborate, I am always excited to hear from you :)
 </p>
 
+<br>
+
 ### Upcoming/Recent Talks 🗣️
 {% assign talks = site.talks | sort: "date" | reverse %}
 <div class="small-text">
@@ -75,5 +77,6 @@ Please do not hesitate to reach out if you would like to collaborate, I am alway
 <dd>{{ new.content }}</dd>
 {% endfor %}
 </dl>
+</div>
 
 
