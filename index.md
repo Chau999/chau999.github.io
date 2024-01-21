@@ -52,6 +52,21 @@ Please do not hesitate to reach out if you would like to collaborate, I am alway
 
 <br>
 
+### Recent Updates 🔔
+
+{% assign news = site.news | sort: "date" | reverse %}
+<div class="small-text">
+<dl>
+{% for new in news limit: 100 %}
+<dt>{{ new.date |date: "%b-%Y"}}</dt>
+<dd>{{ new.content }}</dd>
+{% endfor %}
+</dl>
+</div>
+
+
+<br>
+
 ### Upcoming/Recent Talks 🗣️
 {% assign talks = site.talks | sort: "date" | reverse %}
 <div class="small-text">
@@ -64,18 +79,5 @@ Please do not hesitate to reach out if you would like to collaborate, I am alway
 </dl>
 </div>
 
-<br>
-
-### Recent Updates 🔔
-
-{% assign news = site.news | sort: "date" | reverse %}
-<div class="small-text">
-<dl>
-{% for new in news limit: 100 %}
-<dt>{{ new.date |date: "%b-%Y"}}</dt>
-<dd>{{ new.content }}</dd>
-{% endfor %}
-</dl>
-</div>
 
 

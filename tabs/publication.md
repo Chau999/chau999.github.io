@@ -20,9 +20,13 @@ permalink: /pubs/
         }
 </style>
 
-#### <ins>Preprints</ins>
+
 
 {% assign publications = site.publications | where: "preprint", "true" | sort: "year" | reverse %}
+{% if publications | empty %}
+{% else %}
+    <h4><ins>Preprints</ins></h4>
+{% endif %}
 {% for pub in publications%}
   <div class="pubitem">
     <dl>
