@@ -20,7 +20,7 @@ permalink: /pubs/
         }
 </style>
 
-#### <ins>Preprint</ins>
+[//]: # (#### <ins>Preprint</ins>)
 
 {% assign publications = site.publications | where: "preprint", "true" | sort: "year" | reverse %}
 {% if publications | empty %}
