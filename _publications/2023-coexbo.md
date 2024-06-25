@@ -9,5 +9,5 @@ pdf: https://arxiv.org/pdf/2310.17273.pdf
 code: https://anonymous.4open.science/r/CoExBO-4B06/
 doi:
 preprint: "false"
-thumbnail: "../assets/img/publications/2024-CoExBO.png"
+thumbnail: "../assets/img/publications/2024-COEXBO.png"
 ---
