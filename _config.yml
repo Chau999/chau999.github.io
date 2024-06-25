@@ -34,6 +34,7 @@ plugins:
   - jekyll-feed
 
 header_pages:
+  - tabs/research.md
   - tabs/publication.md
 #  - tabs/talk.md
 #  - tabs/experience.md
@@ -41,6 +42,9 @@ header_pages:
 collections:
   news:
     output: true
+  research:
+    output: true
+    permalink: /:collection/:name
   publications:
     output: true
     permalink: /:collection/:name

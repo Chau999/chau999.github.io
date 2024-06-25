@@ -29,53 +29,12 @@ permalink: /pubs/
         }
 </style>
 
-[//]: # (#### <ins>Preprint</ins>)
 
-{% assign publications = site.publications | where: "preprint", "true" | sort: "year" | reverse %}
-{% if publications | empty %}
-{% else %}
-<h4><ins>Preprints</ins></h4>
-{% endif %}
-{% for pub in publications%}
-  <div class="pubitem">
-    <div class="pubtitle">
-      {{forloop.rindex}}. {{ pub.title }}
-    </div>
-    {% if pub.thumbnail %}
-        <img class="thumbnail" src="{{ pub.thumbnail }}" alt="Thumbnail">
-{% endif %}
-    <div class="pubauthors">{{ pub.authors }}</div>
-    <div class="pubinfo">
-        {{ pub.venue }}, {{ pub.year }}
-    </div>
-    <div class="publinks">
-      {% if pub.pdf %}
-            <a href="{{ pub.pdf }}">
-              <span class="border">PDF</span> 
-            </a>
-          {% endif %}
-      {% if pub.code %}
-        <a href="{{ pub.code }}">
-            <span class="border">Code</span>
-        </a>
-      {% endif %}
-      {% if pub.video %}
-        <a href="{{ pub.video }}">
-            <span class="border">Video</span>
-        </a>
-      {% endif %}
-      {% if pub.poster %}
-        <a href="{{ pub.poster }}">
-          <i class="fas fa-image"></i>
-        </a>
-      {% endif %}
-    </div>
+<div>
+<h2> Publications </h2>
+
 </div>
 
-<br>
-{% endfor %}
-
-[//]: # (#### <ins>Published</ins>)
 
 {% assign publications = site.publications | where: "preprint", "false" | sort: "year" | reverse %}
 {% for pub in publications%}
