@@ -42,12 +42,7 @@ I worked with <a href="https://www.vanderschaar-lab.com/">Prof. Mihaela Van Der 
 </p>
 
 <p align="justify">
-<b>Research Interests.</b> My research aims to enhance machine learning models’ ability to explain what they know (explainability) and be explicit about what they don’t know (uncertainty modelling). I have also worked on broader areas of 
-machine learning including Bayesian kernel methods, Gaussian processes, Causal Inference, Preference Learning, and Graph ML.
-</p>
-
-<p align="justify">
-Please do not hesitate to reach out if you would like to collaborate, I am always excited to hear from you :)
+You can read about my research interests <a href="https://chau999.github.io/research/">here</a>. Please do not hesitate to reach out if you would like to collaborate, I am always excited to hear from you :)
 </p>
 
 <br>
