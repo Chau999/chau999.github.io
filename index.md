@@ -25,10 +25,10 @@ location: CISPA Helmholtz Center for Information Security
         }
 </style>
 
-## Hello <i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i>
+## Welcome <i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i>
 
 <p align="justify">
-I am a postdoctoral researcher at the <a href="https://cispa.de">CISPA Helmholtz Center for Information Security</a> working with
+Hello! My name is Siu Lun Chau (兆麟 周). I am a postdoctoral researcher at the <a href="https://cispa.de">CISPA Helmholtz Center for Information Security</a> working with
 <a href="[http://group.krikamol.org/](https://ri-lab.org/)">Dr. Krikamol Muandet</a> on Trustworthy Machine Learning in Saarbrücken, Germany. Prior to joining CISPA,
 I pursued my DPhil within the <a href="https://csml.stats.ox.ac.uk/">Oxford Computational Statisics and Machine Learning Group</a> at the
 University of Oxford, under the supervision of <a href="https://sejdino.github.io/">Prof. Dino Sejdinovic</a>,
