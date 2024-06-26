@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-<h2> Research </h2>
+<h2> Research Interests</h2>
 <p>
 Artificial Intelligence (AI) has seen rapid advancements in recent years, significantly enhancing its generative and predictive capabilities. However, the lack of transparency and the overconfidence in AI predictions have raised serious concerns regarding their reliability and safety. Additionally, the question of how to design AI models that align with and reflect human and societal values remains unresolved.
 </p>
@@ -24,7 +24,7 @@ My research focuses on developing statistical methods to acknowledge, propagate,
 thereby enabling models to make reliable and safe decisions in real-world applications. </p>
 
 <div style="display: flex; justify-content: center;">
-<img src="../assets/img/research/UAI_illustration.png" alt="Uncertainty-aware ML" style="width:70%;max-width:800px">
+<img src="../assets/img/research/UAI_illustration.png" alt="Uncertainty-aware ML" style="width:100%;max-width:800px">
 </div>
 <br>
 
@@ -37,7 +37,7 @@ In addition to model explanations, human explanations can act as a form of prior
 My interest in this area focuses on developing novel algorithms that utilise explanations to enable more efficient and reliable human-AI collaboration.</p>
 
 <div style="display: flex; justify-content: center;">
-<img src="../assets/img/research/XAI_illustration.png" alt="Explainable ML" style="width:80%;max-width:800px">
+<img src="../assets/img/research/XAI_illustration.png" alt="Explainable ML" style="width:100%;max-width:800px">
 </div>
 <br>
 
