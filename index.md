@@ -66,7 +66,7 @@ You can read more about my research interests <a href="https://chau999.github.io
 {% assign talks = site.talks | sort: "date" | reverse %}
 <div class="small-text">
 <dl>
-{% for talk in talks limit: 10 %}
+{% for talk in talks limit: 100 %}
 <dt>{{ talk.date |date: "%b-%Y"}}</dt>
 <dd><b>{{ talk.talk_title }}</b> 
 <br> - <i>{{talk.venue}}</i></dd>
