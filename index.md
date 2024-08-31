@@ -32,7 +32,7 @@ location: CISPA Helmholtz Center for Information Security
 Hello! My name is Siu Lun Chau (周兆麟), currently a postdoctoral researcher at the <a href="https://ri-lab.org/">Rational Intelligence Lab</a> within 
 <a href="https://cispa.de">CISPA</a> Helmholtz Center for Information Security in Germany. I work under the guidance of 
 <a href="https://www.krikamol.org/">Dr. Krikamol Muandet</a>, focusing on developing machine learning models that acknowledge what they don't know, and effectively communicating what they know. 
-To achieve this goal, we need better methods for modelling uncertainty, explanability, and preferences.
+To achieve this goal, we need better methods for modelling **uncertainty**, **explanability**, and **preferences**.
 </p>
 
 <p align="justify">
