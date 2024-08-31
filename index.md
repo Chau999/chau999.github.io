@@ -28,17 +28,19 @@ location: CISPA Helmholtz Center for Information Security
 ## Welcome <i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i>
 
 <p align="justify">
-Hello! My name is Siu Lun Chau (兆麟 周). I am a postdoctoral researcher at the <a href="https://ri-lab.org/">Rational Intelligence Lab</a> of <a href="https://cispa.de">CISPA Helmholtz Center for Information Security</a> working with
-<a href="[http://group.krikamol.org/](https://ri-lab.org/)">Dr. Krikamol Muandet</a> on Trustworthy Machine Learning in Saarbrücken, Germany. Prior to joining CISPA,
-I pursued my DPhil within the <a href="https://csml.stats.ox.ac.uk/">Oxford Computational Statisics and Machine Learning Group</a> at the
-University of Oxford, under the supervision of <a href="https://sejdino.github.io/">Prof. Dino Sejdinovic</a>,
-<a href="http://www.stats.ox.ac.uk/~cucuring/">Prof. Mihai Cucuringu</a> and <a href="https://web.media.mit.edu/~xdong/">Prof. Xiaowen Dong</a>. 
-During my DPhil, I interned at <a href="https://www.amazon.jobs/de/business_categories/transport">Amazon Transportation Service group</a>
-as an Applied Scientist working on coherent forecasting problems for the EU logistics network.
-I have also interned at the <a href="https://ei.is.mpg.de/">Max Planck Institute for Intelligent Systems</a> where I 
-worked on improving econometric models with modern machine learning methods. I previously obtained
-a masters and bachelor degree with first class honours in mathematics and statistics at the University of Oxford. During my masters,
-I worked with <a href="https://www.vanderschaar-lab.com/">Prof. Mihaela Van Der Schaar</a> on disease trajectory modelling with Bayesian nonparametric models.
+
+Hello! My name is Siu Lun Chau (周兆麟), currently a postdoctoral researcher at the <a href="https://ri-lab.org/">Rational Intelligence Lab</a> within 
+<a href="https://cispa.de">CISPA</a> Helmholtz Center for Information Security in Germany. I work under the guidance of 
+<a href="https://www.krikamol.org/">Dr. Krikamol Muandet</a>, focusing on developing machine learning models that acknowledge what they don't know, and effectively communicating what they know. 
+To achieve this goal, we need better methods for modelling uncertainty, explanability, and preferences.
+</p>
+
+<p align="justify">
+Before joining CISPA, I obtanied my DPhil in Statistical Machine Learning from the University of Oxford, where I specialised in kernel methods and Gaussian processes under the supervision of <a href="https://sejdino.github.io/">Prof. Dino Sejdinovic</a>. I also interned at Amazon as an Applied Scientist, where I tackled coherent forecasting problems for the EU logistics network. I also interned at the Max Planck Institute for Intelligent Systems, where I worked on improving econometric models with modern machine learning approaches.
+</p>
+
+<p align="justify">
+I hold both a master's and undergraduate degree in Mathematics and Statistics with First Class Honours from the University of Oxford. During my master's, I worked with <a href="https://www.vanderschaar-lab.com/">Prof. Mihaela van der Schaar</a> on modelilng diseases trajectories using Bayesian nonparametric methods.
 </p>
 
 <p align="justify">
