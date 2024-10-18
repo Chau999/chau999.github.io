@@ -1,0 +1,30 @@
+.exp_first_line {
+}
+
+.exp_second_line {
+    line-height: 0.1em;
+}
+
+.exp_company{
+    float: left;
+    font-size: 90%;
+    color: #5b5a5a;
+}
+
+.exp_location{
+    float: right;
+    font-size: 90%;
+    color: #5b5a5a;
+}
+
+.exp_position{
+    font-weight: bold;
+    float: left;
+    color: #076dbb;
+}
+
+.exp_duration{
+    float: right;
+    font-size: 90%;
+    color: #5b5a5a;
+}
