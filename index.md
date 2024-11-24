@@ -29,7 +29,7 @@ location: College of Computing and Data Science, Nanyang Technological Universit
 
 ### Bio 📖
 <p align="justify">
-Dr. Siu Lun Chau is an incoming Assistant Professor (commencing May 2025) at the College of <a href="https://www.ntu.edu.sg/computing">Computing and Data Science, Nanyang Technological University (NTU), Singapore</a>. He will lead the <b>Epistemic Intelligence & Computing (EPIC)</b> Lab, focused on developing intelligent systems that recognise and acknowledge what they don’t know while effectively communicating what they already know.
+Dr. Siu Lun Chau is an incoming Assistant Professor (commencing May 2025) at the College of <a href="https://www.ntu.edu.sg/computing">Computing and Data Science, Nanyang Technological University (NTU), Singapore</a>. He will lead the <b>Epistemic Intelligence & Computation (EPIC)</b> Lab, focused on developing intelligent systems that recognise and acknowledge what they don’t know while effectively communicating what they already know.
 </p>
 
 <p align="justify">
