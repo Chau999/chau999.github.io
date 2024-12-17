@@ -41,7 +41,8 @@ and Data Science, Nanyang Technological University (NTU), Singapore</a>. I will 
 limitation of their knowledge (<span style ="color: orangered">uncertainty-awareness</span>), be able to communicate their 
 insights (<span style ="color: blue">explainability</span>), and 
 effectively 
-collaborate with human users (<span style="color: green">preference modelling</span>).
+collaborate with human users (<span style="color: green">preference modelling</span>). You can read more about my research <a 
+href="https://chau999.github.io/research/">here</a>.
 </p>
 
 
