@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Siu Lun Chau
+title: Siu Lun Chau, DPhil(Oxon)
 email: a.siulun.chau@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Siu Lun Chau's academic website. He is an incoming Assistant Professor at the College of Computing & Data Science, NTU Singapore.

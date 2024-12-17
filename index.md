@@ -57,7 +57,12 @@ graduating with First Class Honours from the University of Oxford, where I recei
 
 
 <p align="justify">
-In addition to my research, I also enjoy bridging the gap between academia and industry. I interned at <a href="https://relay.amazon.de/?tag=gmar&user=de&ref=gs_c_136100420583xkwd-829792795643_ki">Amazon</a> as an Applied Scientist, addressing coherent forecasting problems for the EU logistics network. I also provided data science and machine learning consulting services for various startups, including <a href="https://ravio.com/">Ravio</a>, <a href="https://catalystlab.ai/">Catalyst AI</a>, <a href="https://www.cambridgespark.com/">Cambridge Spark</a>, <a href="https://www.potatopro.com/companies/crop4sight">Crop4Sight</a>, and <a href="https://www.verifiedmetrics.com/">gini</a>. I also co-founded OSG Digital, Oxford’s first student-led data science consultancy group.
+In addition to my research, I also enjoy bridging the gap between academia and industry. I interned at <a href="https://relay.amazon.de/?
+tag=gmar&user=de&ref=gs_c_136100420583xkwd-829792795643_ki">Amazon</a> as an Applied Scientist, addressing coherent forecasting problems 
+for the EU logistics network. I also provided data science and machine learning consulting services for various startups, including <a 
+href="https://ravio.com/">Ravio</a>, <a href="https://catalystlab.ai/">Catalyst AI</a>, <a href="https://www.cambridgespark.
+com/">Cambridge Spark</a>, <a href="https://www.potatopro.com/companies/crop4sight">Crop4Sight</a>, and <a href="https://www.
+verifiedmetrics.com/">gini</a>. I also co-founded Oxford Strategy Group Digital, Oxford’s first student-led data science consultancy group.
 </p>
 
 

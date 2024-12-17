@@ -7,8 +7,10 @@ permalink: /group/
 # Epistemic Intelligence & Computation (EPIC) Lab
 
 <p align="justify" style="color:red;">🚨🚨RECRUITMENT: Interested in developing epistemic intelligence for machine learning systems? Join
-us! We have openings for PhD students starting in 2025 summer! You can also read the detailed job description 
-<a href="../assets/research_group/recruitment_letter.pdf">here</a>.</p>
+us! We have openings for PhD students starting in 2025 summer! Further details can be found from the content below.</p>
+
+[//]: # (You can also read the detailed job description )
+[//]: # (<a href="../assets/research_group/recruitment_letter.pdf">here</a>.)
 
 <p align="justify">
 Our mission is to advance the theory and practice of Epistemic Machine Learning---developing intelligent systems that not only recognise 
@@ -66,3 +68,7 @@ Besides the Research Student Scholarship offered by NTU, there are also other fu
 - <a href="https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa">SINGA scholarship</a> from A*STAR 
 - <a href="https://www.a-star.edu.sg/Scholarships/for-graduate-studies/a-star-graduate-scholarship-singapore">AGS scholarship</a> from A*STAR
 - <a href="https://aisingapore.org/research/phd-fellowship-programme/">AISG fellowship</a> from AI Singapore
+
+<br>
+### Recruitment letter
+<object data="../assets/research_group/recruitment_letter.pdf" width="100%" height="1100" type='application/pdf'></object>
