@@ -13,9 +13,8 @@ us! We have openings for PhD students starting in 2025 summer! Further details c
 [//]: # (<a href="../assets/research_group/recruitment_letter.pdf">here</a>.)
 
 <p align="justify">
-Our mission is to advance the theory and practice of Epistemic Machine Learning---developing intelligent systems that not only recognise 
-the 
-limitation of their knowledge, but also be able to communicate their insights and effectively collaborate with human users. To reach this 
+Our mission is to advance the theory and practice of Epistemic Machine Learning---developing intelligent systems that can recognise the 
+limitation of their knowledge, be able to communicate their insights, and effectively collaborate with human users. To reach this 
 goal,
 our research is structured around three major directions,</p>
 

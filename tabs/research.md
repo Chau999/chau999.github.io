@@ -40,14 +40,22 @@ permalink: /research/
 <div>
     <h1> Research Interests</h1>
     <p align=justify>
-    Machine learning (ML) has seen rapid advancements in recent years, significantly enhancing its generative and predictive capabilities. These models clearly demonstrate <b>computational intelligence</b>—the ability to solve complex computational and mathematical problems by leveraging data-driven learning, pattern recognition, and optimization techniques.
-    However, the lack of transparency and the overconfidence in these predictions have raised serious concerns about their reliability and safety in real-world applications. Moreover, the challenge of designing models that align with human and societal values remains unresolved.
+    Machine learning (ML) has seen rapid advancements in recent years, significantly enhancing its generative and predictive 
+capabilities. These models clearly demonstrate <b>computational intelligence</b>—the ability to solve complex computational and 
+mathematical problems by leveraging data-driven learning, pattern recognition, and optimization techniques.
+    However, the lack of transparency and the overconfidence in these predictions have raised serious concerns about their reliability 
+and safety in real-world applications. Moreover, the challenge of designing models that align with human and societal values remains 
+unresolved.
     </p>
     <p align=justify>
-    These issues can be attributed to the <b>lack of epistemic intelligence</b> in current ML systems. Epistemic intelligence refers to the ability to appreciate the limits of one’s knowledge, be honest about what is known, and navigate uncertainty and ambiguity regarding what is unknown. Effective communication and integration of knowledge is also a key component of epistemic intelligence.
+    These issues can be attributed to the <b>lack of epistemic intelligence</b> in current ML systems. Epistemic intelligence refers to 
+the ability to appreciate the limits of one’s knowledge, be honest about what is known, and navigate uncertainty and ambiguity 
+regarding what is unknown. Effective communication and integration of knowledge is also a key component of epistemic intelligence.
     </p>
     <p align=justify>
-    My research focuses on advancing the theory and practice of epistemic machine learning by focusing on three key directions: <span style ="color: orangered">Uncertainty-aware ML</span>, <span style ="color: blue">Explanable ML</span>, and <span style="color: green"> Preference Modelling</span>.
+    My research focuses on advancing the theory and practice of epistemic machine learning by focusing on three key directions: <span 
+style ="color: orangered">Uncertainty-aware ML</span>, <span style ="color: blue">Explainable ML</span>, and <span style="color: green"> 
+Preference Modelling</span>.
     </p>
     <div>
     <img src="../assets/img/research_questions_3.png" alt="Research Questions" style="width:100%;max-width:800px">
@@ -57,10 +65,13 @@ permalink: /research/
 <br>
 <h2> <span style ="color: orangered">Uncertainty-aware ML</span> </h2>
 <p align=justify>
-Learning is an inductive process where we observe information from the world, interpret and internalise it, and generalise our experiences to new scenarios. 
-Uncertainty is an inherent part of this process, emerging at various stages: from hypothesis formulation and data collection to model optimisation, performance evaluation,
+Learning is an inductive process where we observe information from the world, interpret and internalise it, and generalise our 
+experiences to new scenarios. 
+Uncertainty is an inherent part of this process, emerging at various stages: from hypothesis formulation and data collection to model 
+optimisation, performance evaluation,
 and deployment. 
-My research focuses on developing statistical methods to acknowledge, propagate, and utilise uncertainty throughout the machine learning development pipeline,
+My research focuses on developing statistical methods to acknowledge, propagate, and utilise uncertainty throughout the machine 
+learning development pipeline,
 thereby enabling models to make reliable and safe decisions in real-world applications. </p>
 
 <div style="display: flex; justify-content: center;">
@@ -91,7 +102,8 @@ through the task of Causal Bayesian optimisation, and show improvements over sta
 <h3> Uncertainty in optimisation </h3>
 <p align=justify>Bayesian optimisation (BO) is an efficient blackbox function optimiser when function evaluations are expensive to compute and 
 gradient information is not available.
-The key insights behind BO is the use of acquisition function, which balances exploration and exploitation, to guide the search for an optimum. In our 
+The key insights behind BO is the use of acquisition function, which balances exploration and exploitation, to guide the search for an 
+optimum. In our 
 AISTATS 2024 work <a href="https://arxiv.org/abs/2310.17273"> "Collaborative and Explainable Bayesian Optimisation" </a>, we propose a new 
 BO framework that learn expert's domain knowledge in the form of a preference function. This preference function is itself another Gaussian process, which by combining with the 
 data-driven acquisition function, allows us to combine the expert's uncertainty into the search procedure, facilitating faster convergence to an optimum. We demonstrate our method's efficacy 
