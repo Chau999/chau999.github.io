@@ -2,9 +2,9 @@
 layout: default
 title: "Credal Two-sample Tests of Epistemic Ignorance"
 authors: <ins>Siu Lun Chau</ins>, Antonin Schrab, Arthur Gretton, Dino Sejdinovic, Krikamol Muandet 
-venue: arXiv
-venue_short: arXiv
-year: 2024
+venue: AISTATS
+venue_short: AISTATS
+year: 2025
 pdf: https://arxiv.org/pdf/2410.12921
 code: https://github.com/muandet-lab/CredalTwoSampleTests
 doi: 
