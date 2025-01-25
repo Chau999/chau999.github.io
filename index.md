@@ -108,7 +108,7 @@ verifiedmetrics.com/">gini</a>. I also co-founded Oxford Strategy Group Digital,
 {% assign news = site.news | sort: "date" | reverse %}
 <div class="small-text">
 <dl>
-{% for new in news limit: 5 %}
+{% for new in news limit: 8 %}
 <dt>{{ new.date |date: "%b-%Y"}}</dt>
 <dd>{{ new.content }}</dd>
 {% endfor %}
@@ -122,7 +122,7 @@ verifiedmetrics.com/">gini</a>. I also co-founded Oxford Strategy Group Digital,
 {% assign talks = site.talks | sort: "date" | reverse %}
 <div class="small-text">
 <dl>
-{% for talk in talks limit: 5 %}
+{% for talk in talks limit: 8 %}
 <dt>{{ talk.date |date: "%b-%Y"}}</dt>
 <dd><b>{{ talk.talk_title }}</b> 
 <br> - <i>{{talk.venue}}</i></dd>
