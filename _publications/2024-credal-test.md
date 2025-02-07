@@ -9,7 +9,7 @@ pdf: https://arxiv.org/pdf/2410.12921
 code: https://github.com/muandet-lab/CredalTwoSampleTests
 doi: 
 preprint: "false"
-thumbnail: "../assets/img/publications/2024-credal_test.png"
+thumbnail: "../assets/img/publications/2024-credal-test.png"
 award: 
 UAI: true
 XAI:
