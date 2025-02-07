@@ -6,7 +6,7 @@ venue: ArXiv
 venue_short: ArXiv
 year: 2025
 pdf: https://arxiv.org/pdf/2502.04058
-code: 
+code: https://github.com/muandet-lab/sl-leaf
 doi:
 preprint: "false"
 thumbnail: "../assets/img/publications/2025-SL-LEAF.jpg" 
