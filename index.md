@@ -32,7 +32,7 @@ sg/computing">College of Computing and Data Science, Nanyang Technological Unive
 <b>Epistemic Intelligence & Computation 
 (EPIC) Lab</b>, where our mission is to develop intelligent systems that can recognise their own limitations and communicate
 what they know--and how well they know it--with clarity and confidence. To achieve this, we conduct research into both the 
-theoretical foundations and practical application of **Uncertainty-Aware Machine Learning**. You can read more about my research <a 
+theoretical foundations and practical application of <b>Uncertainty-Aware Machine Learning</b>. You can read more about my research <a 
 href="https://chau999.github.io/research/">here</a>.
 </p>
 
