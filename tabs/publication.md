@@ -32,8 +32,10 @@ permalink: /pubs/
 
 <div>
 <h2> Publications </h2>
+<!-- 
 My research mainly spans across the topics of <span style ="color: orangered">Uncertainty-aware ML</span>
 (<span class="paper_type_UAI">UAI</span>), <span style ="color: blue">Explanation in ML</span>(<span class="paper_type_XAI">XAI</span>), and <span style="color: green"> Preference Modelling</span>(<span class="paper_type_pl">PM</span>).
+-->
 </div>
 <br>
 
@@ -46,13 +48,13 @@ My research mainly spans across the topics of <span style ="color: orangered">Un
       {% endif %}
       {{forloop.rindex}}. {{ pub.title }} 
         {% if pub.UAI %}
-            <span class="paper_type_UAI">UAI</span>
+            <!-- <span class="paper_type_UAI">UAI</span> -->
         {% endif %}
         {% if pub.XAI %}
-            <span class="paper_type_XAI">XAI</span>
+            <!-- <span class="paper_type_XAI">XAI</span> -->
         {% endif %}
         {% if pub.PM %}
-            <span class="paper_type_pl">PM</span>
+            <!-- <span class="paper_type_pl">PM</span> -->
         {% endif %}
     </div>
     <div class="pubauthors">{{ pub.authors }}</div>

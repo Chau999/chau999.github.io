@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Siu Lun Chau, DPhil(Oxon)
+title: Siu Lun Chau
 email: a.siulun.chau@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Siu Lun Chau's academic website. He is an incoming Assistant Professor at the College of Computing & Data Science, NTU Singapore.
@@ -35,7 +35,7 @@ plugins:
 header_pages:
   - tabs/research.md
   - tabs/publication.md
-  - tabs/research_group.md
+#  - tabs/research_group.md
 
 collections:
   news:
