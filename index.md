@@ -4,10 +4,9 @@
 
 layout: home
 title: Personal Website
-position: Incoming Assistant Professor
+position: Assistant Professor in Statistical Machine Learning
 location: College of Computing and Data Science, Nanyang Technological University, Singapore
 ---
-
 
 <style>
 .small-text {
@@ -27,26 +26,24 @@ location: College of Computing and Data Science, Nanyang Technological Universit
 
 ## Welcome
 <p align="justify">
-Hi, my name is Siu Lun (Alan) Chau. I am an incoming Assistant Professor (commencing May 2025) at the <a href="https://www.ntu.edu.
-sg/computing">College of Computing and Data Science, Nanyang Technological University (NTU), Singapore</a>. I will be leading the 
+Hi, my name is Siu Lun (Alan) Chau. I am an Assistant Professor in Statistical Machine Learning at the <a href="https://www.ntu.edu.
+sg/computing">College of Computing and Data Science, Nanyang Technological University (NTU), Singapore</a>. I lead the 
 <b>Epistemic Intelligence & Computation 
-(EPIC) Lab</b>, where our mission is to develop intelligent systems that can recognise their own limitations and communicate
+(EPIC) Lab</b>, where the mission is to develop intelligent systems that can recognise their own limitations and communicate
 what they know--and how well they know it--with clarity and confidence. To achieve this, we conduct research into both the 
 theoretical foundations and practical application of <b>Uncertainty-Aware Machine Learning</b>. You can read more about my research <a 
 href="https://chau999.github.io/research/">here</a>.
 </p>
 
-
-
-
 <p align="justify">
-<b> Background. </b> From 2023 to 2025, I was a Postdoctoral Researcher at the <a href="https://ri-lab.org/">Rational Intelligence Lab</a> 
-within 
-the CISPA Helmholtz Center for Information Security, Germany,
+<b> Background. </b> From 2023 to 2025, I was a Postdoctoral Researcher at the <a href="https://ri-lab.org/">Rational
+Intelligence Lab</a> within CISPA Helmholtz Center for Information Security, Germany,
 under the supervision of <a href="https://www.krikamol.org/">Dr. Krikamol Muandet</a>. My research centered on 
-imprecise probabilistic machine learning, a generalised framework of probability theory, and their application to machine learning 
-challenges, including hypothesis testing and supervised learning under imprecision. Between 2019 and 2023, I pursued my DPhil in Statistics at the <a href="https://csml.stats.ox.ac.uk/">University of Oxford</a>,
-where I worked on the intersection of kernel methods and Gaussian processes with applications to trustworthy machine learning, under the 
+imprecise probabilistic machine learning, a generalised probability theory framework, and their integration to machine learning 
+challenges, including hypothesis testing, supervised learning, and forecast elicitation under imprecision. Between 2019 and 2023, I 
+pursued my DPhil in 
+Statistics at the <a href="https://csml.stats.ox.ac.uk/">University of Oxford</a>,
+where I worked at the intersection of kernel methods and Gaussian processes, under the 
 supervision of <a href="https://sejdino.github.io/">Prof. Dino Sejdinovic</a>. 
 During my doctoral studies, I also interned at the <a href="https://ei.is.mpg.de/">
 Empirical Inference department of the Max Planck Institute for Intelligent Systems, Tübingen</a>, working on improving econometric 
@@ -101,7 +98,7 @@ verifiedmetrics.com/">gini</a>. I also co-founded Oxford Strategy Group Digital,
 
 <br>
 
-### Recent Updates 
+### News
 
 {% assign news = site.news | sort: "date" | reverse %}
 <div class="small-text">
@@ -113,20 +110,6 @@ verifiedmetrics.com/">gini</a>. I also co-founded Oxford Strategy Group Digital,
 </dl>
 </div>
 
-
-<br>
-
-### Upcoming/Recent Talks 
-{% assign talks = site.talks | sort: "date" | reverse %}
-<div class="small-text">
-<dl>
-{% for talk in talks limit: 8 %}
-<dt>{{ talk.date |date: "%b-%Y"}}</dt>
-<dd><b>{{ talk.talk_title }}</b> 
-<br> - <i>{{talk.venue}}</i></dd>
-{% endfor %}
-</dl>
-</div>
 
 
 
