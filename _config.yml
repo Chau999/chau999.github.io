@@ -21,7 +21,7 @@
 title: Siu Lun Chau
 email: a.siulun.chau@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Siu Lun Chau's academic website. He is an incoming Assistant Professor at the College of Computing & Data Science, NTU Singapore.
+  Siu Lun Chau's academic website. He is an Assistant Professor at the College of Computing & Data Science, NTU Singapore.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Chau9991
