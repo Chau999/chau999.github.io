@@ -5,6 +5,7 @@ authors: Anurag Singh, <ins>Siu Lun Chau</ins>, Krikamol Muandet
 venue: Conference on Uncertainty in Artificial Intelligence (UAI)
 venue_short: UAI
 year: 2025
+pubtime: 2025
 pdf: http://arxiv.org/pdf/2503.16395
 code: https://github.com/muandet-lab/Imprecise-Scoring-Rule
 doi:

@@ -5,6 +5,7 @@ authors: Kiet Q.H. Vo, <ins>Siu Lun Chau</ins>, Masahiro Kato, Yixin Wang, Krika
 venue: ArXiv
 venue_short: ArXiv
 year: 2025
+pubtime: 2025
 pdf: https://arxiv.org/pdf/2502.04058
 code: https://github.com/muandet-lab/sl-leaf
 doi:

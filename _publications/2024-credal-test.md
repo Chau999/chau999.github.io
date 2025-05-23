@@ -5,6 +5,7 @@ authors: <ins>Siu Lun Chau</ins>, Antonin Schrab, Arthur Gretton, Dino Sejdinovi
 venue: The International Conference on Artificial Intelligence and Statistics
 venue_short: AISTATS
 year: 2025
+pubtime: 2025
 pdf: https://arxiv.org/pdf/2410.12921
 code: https://github.com/muandet-lab/CredalTwoSampleTests
 video: https://www.youtube.com/watch?v=Rq9qW0GZJeE&list=PLfK1LF70DAF7XIXTUWxnB0Rqatun7evOL&index=2
