@@ -62,40 +62,6 @@ verifiedmetrics.com/">gini</a>. I also co-founded Oxford Strategy Group Digital,
 </p>
 
 
-[//]: # (<p align="justify">)
-
-[//]: # (Hello! My name is Siu Lun Chau &#40;周兆麟&#41;, currently a postdoctoral researcher at the <a href="https://ri-lab.org/">Rational Intelligence Lab</a> within )
-
-[//]: # (<a href="https://cispa.de">CISPA</a> Helmholtz Center for Information Security in Germany. I work under the guidance of )
-
-[//]: # (<a href="https://www.krikamol.org/">Dr. Krikamol Muandet</a>, focusing on advancing the theory and practice of epistemic machine learning, i.e. making models acknolwedge what they don't know, and effecitively communicating)
-
-[//]: # (what they know. To achieve this goal, we need better methods for modelling <b>uncertainty</b>, <b>explanability</b>, and <b>preferences</b>.)
-
-[//]: # ()
-[//]: # (</p>)
-
-[//]: # ()
-[//]: # (<p align="justify">)
-
-[//]: # (Before joining CISPA, I obtanied my DPhil in Statistical Machine Learning from the University of Oxford, where I worked on problems in the intersection of kernel methods and Gaussian processes under the supervision of <a href="https://sejdino.github.io/">Prof. Dino Sejdinovic</a>. I also interned at Amazon as an Applied Scientist, where I tackled coherent forecasting problems for the EU logistics network. I also interned at the Max Planck Institute for Intelligent Systems, where I worked on improving econometric models with modern machine learning approaches.)
-
-[//]: # (</p>)
-
-[//]: # ()
-[//]: # (<p align="justify">)
-
-[//]: # (I hold both a master's and undergraduate degree in Mathematics and Statistics with First Class Honours from the University of Oxford. During my master's, I worked with <a href="https://www.vanderschaar-lab.com/">Prof. Mihaela van der Schaar</a> on modelilng diseases trajectories using Bayesian nonparametric methods.)
-
-[//]: # (</p>)
-
-[//]: # ()
-[//]: # (<p align="justify">)
-
-[//]: # (You can read more about my research interests <a href="https://chau999.github.io/research/">here</a>. Please do not hesitate to reach out if you would like to collaborate, I am always excited to hear from you :&#41;)
-
-[//]: # (</p>)
-
 <br>
 
 ### News
