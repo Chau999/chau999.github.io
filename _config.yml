@@ -33,7 +33,7 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - tabs/research.md
+#  - tabs/research.md
   - tabs/talk.md
   - tabs/publication.md
 #  - tabs/research_group.md

@@ -30,10 +30,10 @@ Hi, my name is Siu Lun (Alan) Chau. I am an Assistant Professor in Statistical M
 sg/computing">College of Computing and Data Science, Nanyang Technological University (NTU), Singapore</a>. I lead the 
 <b>Epistemic Intelligence & Computation 
 (EPIC) Lab</b>, where the mission is to develop intelligent systems that can recognise their own limitations and communicate
-what they know--and how well they know it--with clarity and confidence. To achieve this, we conduct research into both the 
-theoretical foundations and practical application of <b>Uncertainty-Aware Machine Learning</b>. You can read more about my research <a 
-href="https://chau999.github.io/research/">here</a>.
-</p>
+what they know--and how well they know it--with clarity and confidence. To achieve this, we focus on the 
+theoretical foundations and methodological development of epistemic uncertainty-aware machine learning. In particular, we 
+leverage tools from imprecise probabilities, cooperative game theory, and kernel methods to represent, quantify, and resolve
+uncertainty, as well as to support learning and decision-making under uncertainty. 
 
 <p align="justify">
 <b> Background. </b> From 2023 to 2025, I was a Postdoctoral Researcher at the <a href="https://ri-lab.org/">Rational
