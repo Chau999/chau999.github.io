@@ -36,7 +36,7 @@ header_pages:
 #  - tabs/research.md
   - tabs/talk.md
   - tabs/publication.md
-#  - tabs/research_group.md
+  - tabs/research_group.md
 
 collections:
   news:

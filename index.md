@@ -24,7 +24,12 @@ location: College of Computing and Data Science, Nanyang Technological Universit
         }
 </style>
 
-## Welcome
+<p align="justify" style="color:red;">🚨🚨 PhD Opportunities: Interested in bringing in epistemic intelligence to machine learning systems?
+I have several openings for PhD students to start in Jan 2026 to be based in Singapore and are looking for candidates with a strong 
+mathematical, statistical, or machine learning background. More details can be found <a href="https://chau999.github.
+io/group/">here</a>.</p>
+
+<h2> Welcome </h2>
 <p align="justify">
 Hi, my name is Siu Lun (Alan) Chau. I am an Assistant Professor in Statistical Machine Learning at the <a href="https://www.ntu.edu.
 sg/computing">College of Computing and Data Science, Nanyang Technological University (NTU), Singapore</a>. I lead the 
@@ -64,7 +69,7 @@ verifiedmetrics.com/">gini</a>. I also co-founded Oxford Strategy Group Digital,
 
 <br>
 
-### News
+<h2> News</h2>
 
 {% assign news = site.news | sort: "date" | reverse %}
 <div class="small-text">
