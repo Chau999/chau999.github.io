@@ -39,6 +39,8 @@ header_pages:
   - tabs/research_group.md
 
 collections:
+  news:
+    output: true
   research:
     output: true
     permalink: /:collection/:name
