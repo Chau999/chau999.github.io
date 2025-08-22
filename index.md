@@ -24,10 +24,14 @@ location: College of Computing and Data Science, Nanyang Technological Universit
         }
 </style>
 
-<p align="justify" style="color:red;">🚨🚨 PhD Opportunities: Interested in bringing in epistemic intelligence to machine learning systems?
-I have several openings for PhD students to start in Jan 2026 to be based in Singapore and are looking for candidates with a strong 
+<p align="justify" style="color:darkblue;">🚨🚨 PhD Opportunities: Interested in bringing in epistemic intelligence to machine learning systems?
+I have several openings for PhD students to start in Jan/Aug 2026 to be based in Singapore and are looking for candidates with a strong 
 mathematical, statistical, or machine learning background. More details can be found <a href="https://chau999.github.
 io/group/">here</a>.</p>
+
+<p align="justify" style="color:red;">
+Due to the high volume of applications, I may not be able to respond to every email. Thank you for your understanding.
+</p>
 
 <h2> Welcome </h2>
 <p align="justify">
