@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Exact Shapley Attributions in Quadratic-time for FANOVA Gaussian Processes"
-authors: Majid Mohammadi, Krikamol Muandet, Ilaria Tiddi, Annette Ten Teije, <ins>Siu Lun Chau</ins>, 
+title: "When Do Credal Sets Stablize? Fixed Point Theorems for Credal Set Updates"
+authors: Michele Caprio, <ins>Siu Lun Chau</ins>, Krikamol Muandet 
 venue: Arxiv
 venue_short: Arxiv
 year: 2025
