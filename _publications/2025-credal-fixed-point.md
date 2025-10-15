@@ -9,7 +9,7 @@ pubtime: 2025-10-01
 pdf: https://arxiv.org/pdf/2510.04769
 code:
 doi:
-preprint: "true"
+preprint: "false"
 thumbnail: "../assets/img/publications/2025-credal-fixed-point.jpg"
 award:
 UAI: true
