@@ -42,7 +42,7 @@ statistical, or machine learning background, please get in touch if you are inte
     - Topics: Decision-making under Epistemic Uncertainty
 
 <h4> Postdocs/PhD Students closely work with me </h4>
-- [Anita Yang](https://www.linkedin.com/in/anita-yang-383204157/?originalSubdomain=nz), _PhD student @ UTokyo, Japan_
+- [Anita Yang](https://www.linkedin.com/in/anita-yang-383204157/?originalSubdomain=nz), _PhD student @ University of Tokyo, Japan_
 - [Anurag Singh](https://anurag14.github.io/), _PhD student @ CISPA, Germany_
 - [Kiet Vo](https://kietqhvo.github.io/), _PhD student @ CISPA, Germany_
 - [Joshua Sin](https://www.linkedin.com/in/joshua-sin-617278194/?originalSubdomain=ch), _PhD student @ Roche & EPFL, Switzerland_
