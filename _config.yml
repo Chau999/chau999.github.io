@@ -38,6 +38,9 @@ header_pages:
   - tabs/publication.md
   - tabs/research_group.md
 
+
+
+
 collections:
   news:
     output: true
