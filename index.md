@@ -30,11 +30,14 @@ mathematical, statistical, or machine learning background. More details can be f
 io/group/">here</a>.</p>
 
 
-<h2> Welcome </h2>
+<h3> Welcome </h3>
+
+
+
+Hi, my name is Siu Lun (Alan) Chau.
 
 <p align="justify">
-
-Hi, my name is Siu Lun (Alan) Chau. I am an Assistant Professor in Statistical Machine Learning at the <a href="https://www.ntu.edu.
+I am an Assistant Professor in Statistical Machine Learning at the <a href="https://www.ntu.edu.
 
 sg/computing">College of Computing and Data Science, Nanyang Technological University (NTU), Singapore</a>. I lead the 
 
@@ -56,11 +59,10 @@ supervision of <a href="https://sejdino.github.io/">Prof. Dino Sejdinovic</a>.
 
 During my doctoral studies, I also interned at the <a href="https://ei.is.mpg.de/">
 
-Empirical Inference department of the Max Planck Institute for Intelligent Systems, Tübingen</a> and Amazon UK. 
+Empirical Inference department of the Max Planck Institute for Intelligent Systems, Tübingen</a> and at Amazon UK. 
 
 I hold both a Master’s and a Bachelor’s degree in Mathematics and Statistics, graduating with First Class Honours from the University of Oxford, 
 where I received the Departmental Prize for ranking top of the cohort.
-
 </p>
 
 
