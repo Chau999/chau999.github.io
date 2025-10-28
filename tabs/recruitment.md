@@ -1,64 +1,18 @@
 ---
 layout: page
 title: Vacancy
-permalink: /group/
+permalink: /recruitment/
 ---
 
-<h2><center>The Epistemic Intelligence & Computation (EPIC) Lab</center></h2>
-<p></p>
+
 
 <h4><center>🚨We are hiring!🚨</center></h4>
 <p align="justify">
 Are you passionate about bringing epistemic intelligence to machine learning systems? The <b>EPIC Lab</b> at Nanyang Technological 
-University (NTU), Singapore, is recruiting <b>PhD students</b> to start in <b>January 2026</b>!
+University (NTU), Singapore, is recruiting <b>PhD students</b> to start in <b>Aug 2026</b>!
 </p>
 
-<p align="justify">
-We are looking for motivated and enthusiastic PhD students to join our research group. If you are curious to dive deeper into the theory 
-and practice of uncertainty modelling in machine learning, then we would love to hear from you!
-</p>
-
-<h4><center> 🔍 We are looking for students resonating with our interests: </center></h4>
-<p align="justify">
-Our group explores a wide range of topics under the umbrella of epistemic machine learning, ranging from theory to practice, including 
-but not limited to:
-</p>
-<u>Foundations of:</u>
-<ul>
-<li>Imprecise probabilistic machine learning: </li>
-    <ul>
-    <li>Theory of epistemic uncertainty: uncertainty representation, comparisons, quantifications, and evaluations</li>
-    <li>Statistical hypothesis testing (two-sample, independence, calibration) under imprecision</li>
-    </ul>
-<li>Precise probabilistic machine learning:</li>
-  <ul>
-    <li> Statistical inference with kernels (kernel methods, Gaussian processes)</li>
-  </ul>
-</ul>
-
-<u>Applications in:</u>
-<ul>
-<li>Decision-making under uncertainty and imprecision</li>
-  <ul>
-  <li>Sequential experimental design: Bayesian optimisation, active learning</li>
-  <li>Robust prediction under out-of-domain data, strategic manipulation, and conflicting objectives</li>
-  <li>Causal inference</li>
-  </ul>
-<li>Explainability:</li>
-    <ul>
-        <li>Explanations that incorporate predictive uncertainty</li>
-        <li>Explanations of uncertainty</li>
-    </ul>
-<li>Collaborative machine learning</li>
-    <ul>
-    <li>Human-in-the-loop machine learning</li>
-    <li>Rational decision-making under irreducible epistemic uncertainty</li>
-    </ul>
-</ul>
-
-
-
-<h4><center>🈸 So how should you apply? </center></h4>
+<h4><center>🈸 How should you apply? </center></h4>
 
 <p align="justify">
 If our mission resonates with you and you’re excited about pursuing research with us, we encourage you to reach out <b>before submitting a 
