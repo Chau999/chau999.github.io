@@ -41,7 +41,7 @@ statistical, or machine learning background, please get in touch if you are inte
 - Xiaotao Liu, _Undergraduate Research Student @ NTU_
     - Topics: Decision-making under Epistemic Uncertainty
 
-<h4> Postdocs/PhD Students closely work with me </h4>
+<h4> Postdocs/PhD Students closely working with me </h4>
 - [Anita Yang](https://www.linkedin.com/in/anita-yang-383204157/?originalSubdomain=nz), _PhD student @ University of Tokyo, Japan_
 - [Anurag Singh](https://anurag14.github.io/), _PhD student @ CISPA, Germany_
 - [Kiet Vo](https://kietqhvo.github.io/), _PhD student @ CISPA, Germany_
