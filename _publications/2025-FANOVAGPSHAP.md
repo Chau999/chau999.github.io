@@ -2,9 +2,9 @@
 layout: default
 title: "Exact Shapley Attributions in Quadratic-time for FANOVA Gaussian Processes"
 authors: Majid Mohammadi, Krikamol Muandet, Ilaria Tiddi, Annette Ten Teije, <ins>Siu Lun Chau</ins>, 
-venue: Arxiv
-venue_short: Arxiv
-year: 2025
+venue: The 40th Annual AAAI Conference on Artificial Intelligence (AAAI)
+venue_short: AAAI
+year: 2026
 pubtime: 2025-08-20
 pdf: https://arxiv.org/pdf/2508.14499v1
 code:
