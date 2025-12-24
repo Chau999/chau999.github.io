@@ -24,11 +24,15 @@ location: College of Computing and Data Science, Nanyang Technological Universit
         }
 </style>
 
-<p align="justify" style="color:darkblue;">🚨🚨 PhD Opportunities: Interested in bringing in epistemic intelligence to machine learning systems?
-I have several openings for PhD students to start in Aug 2026 to be based in Singapore and are looking for candidates with a strong 
-mathematical, statistical, or machine learning background. More details can be found <a href="https://chau999.github.
-io/group/">here</a>.</p>
+[//]: # (<p align="justify" style="color:darkblue;">🚨🚨 PhD Opportunities: Interested in bringing in epistemic intelligence to machine learning systems?)
 
+[//]: # (I have several openings for PhD students to start in Aug 2026 to be based in Singapore and are looking for candidates with a strong )
+
+[//]: # (mathematical, statistical, or machine learning background. More details can be found <a href="https://chau999.github.)
+
+[//]: # (io/group/">here</a>.</p>)
+
+[//]: # ()
 
 <h3> Welcome </h3>
 
@@ -43,7 +47,7 @@ sg/computing">College of Computing and Data Science, Nanyang Technological Unive
 
 <a href="https://chau999.github.io/group">Epistemic Intelligence & Computation 
 
-(EPIC) Lab</a>, understanding and addressing epistemic uncertainty in machine learning—how to represent, quantify, propagate, compare, and explain knowledge-level uncertainty in intelligent systems.
+(EPIC) Lab</a>, where we focus on understanding and addressing epistemic uncertainty in machine learning, asking questions such as how should we represent, quantify, propagate, compare, and explain knowledge-level uncertainty in intelligent systems.
 
 <p align="justify">
 
