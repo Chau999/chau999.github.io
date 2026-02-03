@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Strategic Learning with Local Explanations as Feedback"
+title: "Explanation Design in Strategic Learning: Sufficient Explanations that Induce Non-harmful Responses"
 authors: Kiet Q.H. Vo, <ins>Siu Lun Chau</ins>, Masahiro Kato, Yixin Wang, Krikamol Muandet
-venue: ArXiv
-venue_short: ArXiv
-year: 2025
-pubtime: 2025
+venue: AISTATS
+venue_short: AISTATS
+year: 2026
+pubtime: 2026
 pdf: https://arxiv.org/pdf/2502.04058
 code: https://github.com/muandet-lab/sl-leaf
 doi:
