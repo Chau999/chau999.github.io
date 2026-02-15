@@ -5,7 +5,7 @@ authors: <ins>Siu Lun Chau</ins>, Soroush H Zargarbashi, Yusuf Sale, Michele Cap
 venue: ArXiV
 venue_short: ArXiV
 year: 2026
-pubtime: 2026
+pubtime: 2026-02-01
 pdf: https://arxiv.org/pdf/2602.01667
 code: https://anonymous.4open.science/r/ConformalMMI-1244/README.md
 doi:

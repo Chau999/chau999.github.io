@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Talks
-permalink: /talk/
+title: Presentations
+permalink: /presentations/
 ---
 
 [//]: # ({% assign talks = site.talks | sort: "date" | reverse %})

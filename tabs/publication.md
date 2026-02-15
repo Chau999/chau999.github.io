@@ -39,7 +39,7 @@ My research mainly spans across the topics of <span style ="color: orangered">Un
 </div>
 <br>
 
-{% assign publications = site.publications | where: "preprint", "false" | sort: "pubtime" | reverse %}
+{% assign publications = site.publications | sort: "pubtime" | reverse %}
 {% for pub in publications%}
   <div class="pubitem">
     <div class="pubtitle">

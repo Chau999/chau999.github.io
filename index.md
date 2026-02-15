@@ -4,7 +4,7 @@
 
 layout: home
 title: Personal Website
-position: Assistant Professor in Statistical Machine Learning
+position: Assistant Professor of Statistical Machine Learning
 location: College of Computing and Data Science, Nanyang Technological University, Singapore
 ---
 
@@ -34,28 +34,27 @@ location: College of Computing and Data Science, Nanyang Technological Universit
 
 [//]: # ()
 
-<h3> Welcome </h3>
-
-
-
-Hi, my name is Siu Lun (Alan) Chau.
+<h3> Welcome! </h3>
 
 <p align="justify">
-I am an Assistant Professor in Statistical Machine Learning at the <a href="https://www.ntu.edu.
+
+Hello, my name is Siu Lun (Alan) Chau. I am currently an Assistant Professor of Statistical Machine Learning at the <a href="https://www.ntu.edu.
 
 sg/computing">College of Computing and Data Science, Nanyang Technological University (NTU), Singapore</a>. I lead the 
 
 <a href="https://chau999.github.io/group">Epistemic Intelligence & Computation 
 
-(EPIC) Lab</a>, where we focus on understanding and addressing epistemic uncertainty in machine learning, asking questions such as how should we represent, quantify, propagate, compare, and explain knowledge-level uncertainty in intelligent systems.
+(EPIC) Lab</a>, where we aim to understand <i>how to design epistemically intelligent systems that can recognise and communicate 
+the limits of their knowledge.</i> 
+
 
 <p align="justify">
 
-<b> Background. </b> From 2023 to 2025, I was a Postdoctoral Researcher at the <a href="https://ri-lab.org/">Rational
+From 2023 to 2025, I was a Postdoctoral Researcher at the <a href="https://ri-lab.org/">Rational
 
 Intelligence Lab</a> within CISPA Helmholtz Center for Information Security, Germany,
 
-under the supervision of <a href="https://www.krikamol.org/">Dr. Krikamol Muandet</a>. Between 2019 and 2023, I 
+under the supervision of <a href="https://www.krikamol.org/">Dr. Krikamol Muandet</a>. Between 2018 and 2023, I 
 
 pursued my DPhil in Statistics at the <a href="https://csml.stats.ox.ac.uk/">University of Oxford</a> under the 
 
@@ -65,22 +64,33 @@ During my doctoral studies, I also interned at the <a href="https://ei.is.mpg.de
 
 Empirical Inference department of the Max Planck Institute for Intelligent Systems, Tübingen</a> and at Amazon UK. 
 
-I hold both a Master’s and a Bachelor’s degree in Mathematics and Statistics, graduating with First Class Honours from the University of Oxford, 
-where I received the Departmental Prize for ranking top of the cohort.
+I hold both a Master’s and a Bachelor’s degree in Mathematics and Statistics from the University of Oxford, 
+graduating in 2018 with First Class Honours and receiving the Departmental Prize for ranking top of the cohort. My master supervisor
+was <a href="https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/">Prof. Mihaela van der Schaar</a>.
+
 </p>
 
+<p align="justify">
+Outside of research, I enjoy exploring cities, discovering cafés, and engaging with creative workshops that add 
+a little variety to everyday life. I am currently into jogging and boxing, and I enjoy reading books on psychology, 
+economics, and philosophy.
 
+</p>
 
+<p align="justify">
+I am deeply grateful to my students and collaborators for the many stimulating and rewarding collaborations we have shared.
+I view research as a collective effort to advance human knowledge, and I am always open to new ideas and partnerships.
+I would be delighted to hear from you.
+</p>
 
 
 <br>
 
-<h2> News</h2>
 
 {% assign news = site.news | sort: "date" | reverse %}
 <div class="small-text">
 <dl>
-{% for new in news limit: 5 %}
+{% for new in news limit: 0 %}
 <dt>{{ new.date |date: "%b-%Y"}}</dt>
 <dd>{{ new.content }}</dd>
 {% endfor %}

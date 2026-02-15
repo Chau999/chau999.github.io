@@ -34,10 +34,10 @@ plugins:
 
 header_pages:
 #  - tabs/research.md
-  - tabs/group.md
+#  - tabs/group.md
   - tabs/talk.md
   - tabs/publication.md
-  - tabs/recruitment.md
+#  - tabs/recruitment.md
 
 
 collections:
