@@ -42,7 +42,7 @@ Hello, my name is Siu Lun (Alan) Chau. I am currently an Assistant Professor of 
 
 sg/computing">College of Computing and Data Science, Nanyang Technological University (NTU), Singapore</a>. I lead the 
 
-<a href="https://chau999.github.io/group">Epistemic Intelligence & Computation 
+<a href="https://epiclab-sg.github.io/">Epistemic Intelligence & Computation 
 
 (EPIC) Lab</a>, where we aim to understand <i>how to design epistemically intelligent systems that can recognise and communicate 
 the limits of their knowledge.</i> 
