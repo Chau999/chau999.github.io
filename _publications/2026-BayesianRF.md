@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Quantifying Epistemic Predictive Uncertainty in Conformal Prediction"
+title: "Robust Predictive Uncertainty and Double Descent
+in Contaminated Bayesian Random Features"
 authors: Michele Caprio, Katerina Papagiannouli, <ins>Siu Lun Chau</ins>, Sayan Mukherjee
 venue: ArXiV
 venue_short: ArXiV
