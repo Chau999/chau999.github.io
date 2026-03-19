@@ -43,8 +43,6 @@ permalink: /pubs/
 }
 </style>
 
-<h2>Publications</h2>
-
 {% assign pubs = site.data.publications.items | sort: "pubtime" | reverse %}
 {% assign years = pubs | map: "year" | uniq %}
 
