@@ -122,6 +122,7 @@ items:
     venue: "International Conference on Machine Learning (ICML)"
     year: 2025
     pubtime: "2025-01-01"
+    pdf: "https://arxiv.org/pdf/2505.20433"
 
   # ── 2024 ──────────────────────────────────────────────────────────────────
 
