@@ -5,84 +5,54 @@ permalink: /pubs/
 ---
 
 <style>
-.small-text {
+.pubitem {
+    margin-bottom: 1.2em;
+}
+.pubtitle {
+    font-weight: 600;
+}
+.pubauthors {
     font-size: 0.9em;
 }
-        dt {
-            float: left;
-            clear: left;
-            width: 100px;
-            text-align: left;
-            color: royalblue;
-        }
-        dd {
-            margin-left: 120px; /* Adjust this value for tab distance */
-        }
-        .thumbnail {
-            float: right;
-            margin-left: 10px;
-            width: auto; /* Adjust the size as needed */
-            height: 100px; /* Adjust the size as needed */
-        }
-        .pubitem {
-            overflow: hidden;
-        }
+.pubinfo {
+    font-size: 0.9em;
+    color: #555;
+}
+.pubaward {
+    color: red;
+}
+.publinks {
+    font-size: 0.85em;
+    margin-top: 0.2em;
+}
+.publinks a {
+    margin-right: 0.4em;
+    text-decoration: none;
+}
+.border {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.85em;
+}
+.year-heading {
+    margin-top: 1.5em;
+    margin-bottom: 0.6em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.2em;
+}
 </style>
 
+<h2>Publications</h2>
 
-<div>
-<h2> Publications </h2>
-<!-- 
-My research mainly spans across the topics of <span style ="color: orangered">Uncertainty-aware ML</span>
-(<span class="paper_type_UAI">UAI</span>), <span style ="color: blue">Explanation in ML</span>(<span class="paper_type_XAI">XAI</span>), and <span style="color: green"> Preference Modelling</span>(<span class="paper_type_pl">PM</span>).
--->
-</div>
-<br>
+{% assign pubs = site.data.publications.items | sort: "pubtime" | reverse %}
+{% assign years = pubs | map: "year" | uniq %}
 
-{% assign publications = site.publications | sort: "pubtime" | reverse %}
-{% for pub in publications%}
-  <div class="pubitem">
-    <div class="pubtitle">
-{% if pub.thumbnail %}
-        <img class="thumbnail" src="{{ pub.thumbnail }}" alt="Thumbnail">
-      {% endif %}
-      {{forloop.rindex}}. {{ pub.title }} 
-        {% if pub.UAI %}
-            <!-- <span class="paper_type_UAI">UAI</span> -->
-        {% endif %}
-        {% if pub.XAI %}
-            <!-- <span class="paper_type_XAI">XAI</span> -->
-        {% endif %}
-        {% if pub.PM %}
-            <!-- <span class="paper_type_pl">PM</span> -->
-        {% endif %}
-    </div>
-    <div class="pubauthors">{{ pub.authors }}</div>
-    <div class="pubinfo">
-        <span style="color: red">{{ pub.award }}</span> {{ pub.venue }}, {{ pub.year }}
-    </div>
-    <div class="publinks">
-      {% if pub.pdf %}
-            <a href="{{ pub.pdf }}">
-              <span class="border">PDF</span> 
-            </a>
-          {% endif %}
-      {% if pub.code %}
-        <a href="{{ pub.code }}">
-            <span class="border">Code</span>
-        </a>
-      {% endif %}
-      {% if pub.video %}
-        <a href="{{ pub.video }}">
-            <span class="border">Video</span>
-        </a>
-      {% endif %}
-      {% if pub.poster %}
-        <a href="{{ pub.poster }}">
-          <i class="fas fa-image"></i>
-        </a>
-      {% endif %}
-    </div>
-</div>
-<br>
+{% for year in years %}
+<h3 class="year-heading">{{ year }}</h3>
+{% for pub in pubs %}
+  {% if pub.year == year %}
+    {% include pub-item.html pub=pub %}
+  {% endif %}
+{% endfor %}
 {% endfor %}

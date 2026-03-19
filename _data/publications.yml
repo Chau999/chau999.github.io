@@ -1,0 +1,249 @@
+items:
+
+  # ── 2026 ──────────────────────────────────────────────────────────────────
+
+  - title: "Verbalizing LLM’s Higher-order Uncertainty via Imprecise Probabilities"
+    authors: "Anita Yang, Krikamol Muandet, Michele Caprio, <ins>Siu Lun Chau*</ins>, Masaki Adachi*"
+    venue: "ArXiv"
+    year: 2026
+    pubtime: "2026-03-01"
+    pdf: "https://arxiv.org/pdf/2603.10396"
+
+  - title: "Incentive Aware AI Regulations: A Credal Characterisation"
+    authors: "Anurag Singh, Julian Rodemann, Rajeev Verma, <ins>Siu Lun Chau</ins>, Krikamol Muandet"
+    venue: "ArXiV"
+    year: 2026
+    pubtime: "2026-03-01"
+    pdf: "https://arxiv.org/pdf/2603.05175"
+    code: "https://github.com/muandet-lab/incentive-aware-ai-regulation"
+
+  - title: "Instrumental and Proximal Causal Inference with Gaussian Processes"
+    authors: "Yuqi Zhang, Krikamol Muandet, Dino Sejdinovic, Edwin Fong, <ins>Siu Lun Chau</ins>"
+    venue: "ArXiV"
+    year: 2026
+    pubtime: "2026-02-25"
+    pdf: "https://arxiv.org/pdf/2603.02159"
+
+  - title: "Robust Predictive Uncertainty and Double Descent in Contaminated Bayesian Random Features"
+    authors: "Michele Caprio, Katerina Papagiannouli, <ins>Siu Lun Chau</ins>, Sayan Mukherjee"
+    venue: "ArXiV"
+    year: 2026
+    pubtime: "2026-02-24"
+    pdf: "https://arxiv.org/pdf/2602.19126"
+
+  - title: "Learning Credal Ensembles via Distributionally Robust Optimization"
+    authors: "Kaizheng Wang, Ghifari Adam Faza, Fabio Cuzzolin, <ins>Siu Lun Chau</ins>, David Moens, Hans Hallez"
+    venue: "ArXiV"
+    year: 2026
+    pubtime: "2026-02-01"
+    pdf: "https://arxiv.org/pdf/2602.08470"
+
+  - title: "Quantifying Epistemic Predictive Uncertainty in Conformal Prediction"
+    authors: "<ins>Siu Lun Chau</ins>, Soroush H Zargarbashi, Yusuf Sale, Michele Caprio"
+    venue: "ArXiV"
+    year: 2026
+    pubtime: "2026-02-01"
+    pdf: "https://arxiv.org/pdf/2602.01667"
+    code: "https://anonymous.4open.science/r/ConformalMMI-1244/README.md"
+
+  - title: "Exact Shapley Attributions in Quadratic-time for FANOVA Gaussian Processes"
+    authors: "Majid Mohammadi, Krikamol Muandet, Ilaria Tiddi, Annette Ten Teije, <ins>Siu Lun Chau</ins>"
+    venue: "The 40th Annual AAAI Conference on Artificial Intelligence (AAAI)"
+    year: 2026
+    pubtime: "2026-01-20"
+    pdf: "https://arxiv.org/pdf/2508.14499v1"
+
+  - title: "Explanation Design in Strategic Learning: Sufficient Explanations that Induce Non-harmful Responses"
+    authors: "Kiet Q.H. Vo, <ins>Siu Lun Chau</ins>, Masahiro Kato, Yixin Wang, Krikamol Muandet"
+    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
+    year: 2026
+    pubtime: "2026-01-01"
+    pdf: "https://arxiv.org/pdf/2502.04058"
+    code: "https://github.com/muandet-lab/sl-leaf"
+
+  # ── 2025 ──────────────────────────────────────────────────────────────────
+
+  - title: "When Do Credal Sets Stabilize? Fixed Point Theorems for Credal Set Updates"
+    authors: "Michele Caprio, <ins>Siu Lun Chau</ins>, Krikamol Muandet"
+    venue: "ArXiV"
+    year: 2025
+    pubtime: "2025-10-01"
+    pdf: "https://arxiv.org/pdf/2510.04769"
+
+  - title: "Integral Imprecise Probability Metrics"
+    authors: "<ins>Siu Lun Chau</ins>, Michele Caprio, Krikamol Muandet"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS)"
+    year: 2025
+    pubtime: "2025-05-23"
+    pdf: "https://arxiv.org/pdf/2505.16156"
+
+  - title: "Computing Exact Shapley Values in Polynomial Time for Product-Kernel Methods"
+    authors: "Majid Mohammadi, <ins>Siu Lun Chau</ins>, Krikamol Muandet"
+    venue: "ArXiV"
+    year: 2025
+    pubtime: "2025-05-22"
+    pdf: "https://arxiv.org/pdf/2505.16516"
+
+  - title: "Truthful Elicitation of Imprecise Forecast"
+    authors: "Anurag Singh, <ins>Siu Lun Chau</ins>, Krikamol Muandet"
+    venue: "Conference on Uncertainty in Artificial Intelligence (UAI)"
+    year: 2025
+    pubtime: "2025-04-01"
+    award: "(Oral)"
+    pdf: "http://arxiv.org/pdf/2503.16395"
+    code: "https://github.com/muandet-lab/Imprecise-Scoring-Rule"
+
+  - title: "Bayesian Optimization for Building Social-Influence-Free Consensus"
+    authors: "Masaki Adachi, <ins>Siu Lun Chau</ins>, Wenjie Xu, Anurag Singh, Mike Osborne, Krikamol Muandet"
+    venue: "ArXiV"
+    year: 2025
+    pubtime: "2025-02-01"
+    pdf: "https://arxiv.org/pdf/2502.07166"
+
+  - title: "Credal Two-sample Tests of Epistemic Ignorance"
+    authors: "<ins>Siu Lun Chau</ins>, Antonin Schrab, Arthur Gretton, Dino Sejdinovic, Krikamol Muandet"
+    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
+    year: 2025
+    pubtime: "2025-01-21"
+    pdf: "https://arxiv.org/pdf/2410.12921"
+    code: "https://github.com/muandet-lab/CredalTwoSampleTests"
+    video: "https://www.youtube.com/watch?v=Rq9qW0GZJeE&list=PLfK1LF70DAF7XIXTUWxnB0Rqatun7evOL&index=2"
+
+  - title: "Highly Parallel Optimisation of Nickel-Catalysed Suzuki Reactions through Automation and Machine Intelligence"
+    authors: "Joshua W. Sin, <ins>Siu Lun Chau</ins>, Ryan P. Burwood, Kurt Püntener, Raphael Bigler, Philippe Schwaller"
+    venue: "Nature Communications"
+    year: 2025
+    pubtime: "2025-01-01"
+    pdf: "https://chemrxiv.org/engage/chemrxiv/article-details/66f976b5cec5d6c142981e4e"
+    code: "https://github.com/schwallergroup/minerva"
+
+  - title: "Kernel Quantile Embedding and Associated Probability Metrics"
+    authors: "Masha Naslidnyk, <ins>Siu Lun Chau</ins>, Francois-Xavier Briol, Krikamol Muandet"
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2025
+    pubtime: "2025-01-01"
+
+  # ── 2024 ──────────────────────────────────────────────────────────────────
+
+  - title: "Domain Generalisation via Imprecise Learning"
+    authors: "Anurag Singh, <ins>Siu Lun Chau</ins>, Shahine Bouabid, Krikamol Muandet"
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2024
+    pubtime: "2024-07-01"
+    award: "(Spotlight)"
+    pdf: "https://arxiv.org/abs/2404.04669"
+    code: "https://github.com/muandet-lab/dgil"
+
+  - title: "Collaborative and Explainable Bayesian Optimization"
+    authors: "Masaki Adachi, Brady Planden, David A. Howey, Krikamol Muandet, Michael A. Osborne, <ins>Siu Lun Chau</ins>"
+    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
+    year: 2024
+    pubtime: "2024-05-01"
+    pdf: "https://arxiv.org/pdf/2310.17273.pdf"
+    code: "https://anonymous.4open.science/r/CoExBO-4B06/"
+
+  - title: "Causal Strategic Learning with Competitive Selection"
+    authors: "Kiet QH Vo, Muneeb Aadil, <ins>Siu Lun Chau</ins>, Krikamol Muandet"
+    venue: "The 38th Annual AAAI Conference on Artificial Intelligence (AAAI)"
+    year: 2024
+    pubtime: "2024-02-01"
+    award: "(Oral)"
+    pdf: "https://arxiv.org/pdf/2308.16262.pdf"
+    code: "https://github.com/muandet-lab/causal-strategic-learning-with-selection"
+
+  # ── 2023 ──────────────────────────────────────────────────────────────────
+
+  - title: "Stochastic Shapley Values for Gaussian Process Models"
+    authors: "<ins>Siu Lun Chau</ins>, Krikamol Muandet*, Dino Sejdinovic*"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS)"
+    year: 2023
+    pubtime: "2023-12-01"
+    award: "(Spotlight)"
+    pdf: "https://arxiv.org/pdf/2305.15167.pdf"
+    code: "https://github.com/muandet-lab/ExplainingGaussianProcess"
+    video: "https://slideslive.com/39009992/explaining-the-uncertain-stochastic-shapley-values-for-gaussian-process-models"
+
+  - title: "Gated Domain Units for Multi-source Domain Generalization"
+    authors: "Simon Föll*, Alina Dubatovka*, Eugen Ernst†, <ins>Siu Lun Chau</ins>†, Martin Maritsch, Patrik Okanovic, Gudrun Thäter, Joachim M Buhmann, Felix Wortmann, Krikamol Muandet"
+    venue: "Transactions on Machine Learning Research"
+    year: 2023
+    pubtime: "2023-08-01"
+    pdf: "https://arxiv.org/pdf/2206.12444.pdf"
+    code: "https://github.com/im-ethz/pub-gdu4dg"
+
+  - title: "Towards Trustworthy Machine Learning with Kernels"
+    authors: "<ins>Siu Lun Chau</ins>"
+    venue: "Ph.D. Thesis, University of Oxford"
+    year: 2023
+    pubtime: "2023-07-01"
+    pdf: "https://ora.ox.ac.uk/objects/uuid:24c81031-e078-4481-a677-e7a51b659bfc"
+
+  # ── 2022 ──────────────────────────────────────────────────────────────────
+
+  - title: "RKHS-SHAP: Shapley Values for Kernel Methods"
+    authors: "<ins>Siu Lun Chau</ins>, Robert Hu, Javier Gonzalez, Dino Sejdinovic"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS)"
+    year: 2022
+    pubtime: "2022-12-01"
+    pdf: "https://proceedings.neurips.cc/paper_files/paper/2022/file/54bb63eaec676b87a2278a22b1bd02a2-Paper-Conference.pdf"
+    code: "https://github.com/Chau999/RKHS-SHAP"
+    video: "https://www.youtube.com/watch?v=olmSYH-daG0"
+
+  - title: "Explaining Preferences with Shapley Values"
+    authors: "Robert Hu*, <ins>Siu Lun Chau*</ins>, Jaime Ferrando Huertas, Dino Sejdinovic"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS)"
+    year: 2022
+    pubtime: "2022-12-01"
+    pdf: "https://proceedings.neurips.cc/paper_files/paper/2022/file/b1656d20067ca7c84a33785c4083a75e-Paper-Conference.pdf"
+    code: "https://github.com/MrHuff/PREF-SHAP"
+    video: "https://slideslive.com/38992229/explaining-preferences-with-shapley-values"
+
+  - title: "Giga-scale Kernel Matrix Vector Multiplication on GPU"
+    authors: "Robert Hu, <ins>Siu Lun Chau</ins>, Dino Sejdinovic, Joan Alexis Glaunès"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS)"
+    year: 2022
+    pubtime: "2022-12-01"
+    pdf: "https://arxiv.org/pdf/2202.01085.pdf"
+    code: "https://anonymous.4open.science/r/F3M-7850/readme.md"
+
+  - title: "Learning Inconsistent Preferences with Gaussian Processes"
+    authors: "<ins>Siu Lun Chau</ins>, Javier González, Dino Sejdinovic"
+    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
+    year: 2022
+    pubtime: "2022-03-01"
+    pdf: "https://proceedings.mlr.press/v151/lun-chau22a/lun-chau22a.pdf"
+    video: "https://slideslive.at/38980474/learning-inconsistent-preferences-with-gaussian-processes?ref=speaker-30833"
+
+  - title: "Spectral Ranking with Covariates"
+    authors: "<ins>Siu Lun Chau</ins>, Mihai Cucuringu, Dino Sejdinovic"
+    venue: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)"
+    year: 2022
+    pubtime: "2022-09-01"
+    pdf: "https://arxiv.org/pdf/2005.04035.pdf"
+    code: "https://github.com/Chau999/SpectralRankingWithCovariates"
+
+  # ── 2021 ──────────────────────────────────────────────────────────────────
+
+  - title: "Uncertainty Quantification for Causal Data Fusion"
+    authors: "<ins>Siu Lun Chau*</ins>, Jean-François Ton*, Javier González, Yee Whye Teh, Dino Sejdinovic"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS)"
+    year: 2021
+    pubtime: "2021-12-01"
+    pdf: "https://proceedings.neurips.cc/paper/2021/file/1ca5c750a30312d1919ae6a4d636dcc4-Paper.pdf"
+    video: "https://slideslive.com/38968202/bayesimp-uncertainty-quantification-for-causal-data-fusion?ref=recommended"
+
+  - title: "Deconditional Downscaling with Gaussian Processes"
+    authors: "<ins>Siu Lun Chau*</ins>, Shahine Bouabid*, Dino Sejdinovic"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS)"
+    year: 2021
+    pubtime: "2021-12-01"
+    pdf: "https://arxiv.org/pdf/2305.15167.pdf"
+    code: "https://github.com/shahineb/deconditional-downscaling"
+    video: "https://slideslive.com/38967430/deconditional-downscaling-with-gaussian-processes?ref=recommended"
+
+  - title: "Kernel-based Graph Learning from Smooth Signals: A Functional Viewpoint"
+    authors: "Xingyue Pu, <ins>Siu Lun Chau</ins>, Xiaowen Dong, Dino Sejdinovic"
+    venue: "IEEE Transactions on Signal and Information Processing over Networks"
+    year: 2021
+    pubtime: "2021-01-01"
+    pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9356326"

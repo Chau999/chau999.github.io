@@ -87,12 +87,13 @@ I would be delighted to hear from you.
 <br>
 
 
-{% assign news = site.news | sort: "date" | reverse %}
+{% assign news = site.data.news.items | sort: "date" | reverse %}
+<h3>News</h3>
 <div class="small-text">
 <dl>
-{% for new in news limit: 0 %}
-<dt>{{ new.date |date: "%b-%Y"}}</dt>
-<dd>{{ new.content }}</dd>
+{% for item in news limit: 5 %}
+<dt>{{ item.date | date: "%b %Y" }}</dt>
+<dd>{{ item.text | markdownify }}</dd>
 {% endfor %}
 </dl>
 </div>

@@ -1,0 +1,214 @@
+items:
+
+  # ── 2026 ──────────────────────────────────────────────────────────────────
+
+  - title: "Recent Advances in Imprecise Probabilistic Machine Learning"
+    venue: "Department of Statistics, University of Oxford"
+    location: "Oxford, United Kingdom"
+    date: "Feb 2026"
+    sortdate: "2026-02-01"
+    slides: "/assets/documents/presentations/2026-iipm.pdf"
+
+  - title: "Recent Advances in Imprecise Probabilistic Machine Learning"
+    venue: "Department of Computer Science, University of Manchester"
+    location: "Manchester, United Kingdom"
+    date: "Feb 2026"
+    sortdate: "2026-02-01"
+    slides: "/assets/documents/presentations/2026-iipm.pdf"
+
+  # ── 2025 ──────────────────────────────────────────────────────────────────
+
+  - title: "Recent Advances in Game-theoretic Feature Attributions for Kernel methods and Gaussian Processes"
+    venue: "Department of Statistics and Actuarial Science, University of Hong Kong"
+    location: "Hong Kong"
+    date: "Nov 2025"
+    sortdate: "2025-11-01"
+
+  - title: "Recent Advances in Game-theoretic Feature Attributions for Kernel methods and Gaussian Processes"
+    venue: "Department of Mathematics, City University of Hong Kong"
+    location: "Hong Kong"
+    date: "Nov 2025"
+    sortdate: "2025-11-01"
+
+  - title: "Integral Imprecise Probability Metrics"
+    venue: "Institute for Informatics, LMU"
+    location: "Munich, Germany"
+    date: "Nov 2025"
+    sortdate: "2025-11-01"
+
+  - title: "Integral Imprecise Probability Metrics"
+    venue: "Centre for Frontier AI Research, ASTAR"
+    location: "Singapore"
+    date: "Oct 2025"
+    sortdate: "2025-10-01"
+
+  - title: "Deconditional Kernel Mean Embeddings and Gaussian Processes"
+    venue: "Data Science and its Applications (DSA), German Research Center for Artificial Intelligence (DFKI)"
+    location: "Online"
+    date: "Sep 2025"
+    sortdate: "2025-09-01"
+    slides: "/assets/documents/presentations/2025-spatiotemporal-causality.pdf"
+
+  - title: "Integral Imprecise Probability Metrics"
+    venue: "Lattice Lab, Toyota"
+    location: "Japan"
+    date: "Aug 2025"
+    sortdate: "2025-08-01"
+
+  - title: "Integral Imprecise Probability Metrics"
+    venue: "National University of Singapore"
+    location: "Singapore"
+    date: "May 2025"
+    sortdate: "2025-05-01"
+
+  - title: "Credal Two-Sample Tests: How to Test Hypothesis Under Dataset Uncertainty"
+    venue: "RainML Research Lab, Department of Statistics, University of Oxford"
+    location: "Oxford"
+    date: "Mar 2025"
+    sortdate: "2025-03-01"
+
+  - title: "Credal Two-Sample Tests: How to Test Hypothesis Under Dataset Uncertainty"
+    venue: "Manchester Centre for AI Fundamentals, University of Manchester"
+    location: "Manchester"
+    date: "Mar 2025"
+    sortdate: "2025-03-01"
+
+  - title: "Towards Credal Generalisation: How to Learn and Test Hypothesis under Dataset Uncertainty?"
+    venue: "Amazon Web Services, Berlin"
+    location: "Berlin"
+    date: "Feb 2025"
+    sortdate: "2025-02-01"
+
+  # ── 2024 ──────────────────────────────────────────────────────────────────
+
+  - title: "Credal Two-Sample Tests of Epistemic Ignorance"
+    venue: "Gatsby Computational Neuroscience Unit, University College London"
+    location: "London"
+    date: "Oct 2024"
+    sortdate: "2024-10-01"
+
+  - title: "Credal Two-Sample Tests of Epistemic Ignorance"
+    venue: "Department of Statistical Science, University College London"
+    location: "London"
+    date: "Oct 2024"
+    sortdate: "2024-10-01"
+
+  - title: "Introduction to the role of Uncertainty in Machine Learning"
+    venue: "Kernels and Information Processing Systems group, University of Adelaide"
+    location: "Virtual"
+    date: "Aug 2024"
+    sortdate: "2024-08-01"
+
+  - title: "Introduction to the role of Uncertainty in Machine Learning"
+    venue: "College of Computing and Data Science, Nanyang Technological University"
+    location: "Singapore"
+    date: "Jul 2024"
+    sortdate: "2024-07-01"
+
+  - title: "Stochastic Shapley Values for Gaussian Processes and application to Explainable Bayesian Optimisation"
+    venue: "Institute for Informatics, LMU"
+    location: "Munich, Germany"
+    date: "Mar 2024"
+    sortdate: "2024-03-01"
+
+  # ── 2023 ──────────────────────────────────────────────────────────────────
+
+  - title: "Stochastic Shapley Values for Gaussian Processes"
+    venue: "Australian Data Science Network"
+    location: "Adelaide, Australia"
+    date: "Dec 2023"
+    sortdate: "2023-12-01"
+
+  - title: "Stochastic Shapley Values for Gaussian Processes"
+    venue: "Australian Institute for Machine Learning (AIML)"
+    location: "Adelaide, Australia"
+    date: "Nov 2023"
+    sortdate: "2023-11-01"
+
+  - title: "Stochastic Shapley Values for Gaussian Processes"
+    venue: "School of Computing, Australian National University"
+    location: "Canberra, Australia"
+    date: "Nov 2023"
+    sortdate: "2023-11-01"
+
+  - title: "Collaborative and Explainable Bayesian Optimisation"
+    venue: "School of Computing and Information Systems, The University of Melbourne"
+    location: "Melbourne, Australia"
+    date: "Nov 2023"
+    sortdate: "2023-11-01"
+
+  - title: "Collaborative and Explainable Bayesian Optimisation"
+    venue: "Data61 Melbourne"
+    location: "Melbourne, Australia"
+    date: "Nov 2023"
+    sortdate: "2023-11-01"
+
+  - title: "Stochastic Shapley Values for Gaussian Processes"
+    venue: "ETH AI Center"
+    location: "Zurich, Switzerland"
+    date: "Sep 2023"
+    sortdate: "2023-09-01"
+
+  - title: "Stochastic Shapley Values for Gaussian Processes"
+    venue: "Department of Management, Technology, and Economics (D-MTEC), ETH Zürich"
+    location: "Zurich, Switzerland"
+    date: "Sep 2023"
+    sortdate: "2023-09-01"
+
+  - title: "Stochastic Shapley Values for Gaussian Processes"
+    venue: "Oxford Man Institute, University of Oxford"
+    location: "Oxford, United Kingdom"
+    date: "Sep 2023"
+    sortdate: "2023-09-01"
+
+  - title: "Explaining kernel methods and preference models with RKHS-SHAP"
+    venue: "CISPA Helmholtz Center for Information Security"
+    location: "Saarbrücken, Germany"
+    date: "Feb 2023"
+    sortdate: "2023-02-01"
+
+  - title: "Introduction to Explainable ML"
+    venue: "Oxford Strategy Group Digital"
+    location: "Oxford, United Kingdom"
+    date: "Feb 2023"
+    sortdate: "2023-02-01"
+
+  # ── 2022 ──────────────────────────────────────────────────────────────────
+
+  - title: "Spectral Ranking with Covariates"
+    venue: "ECML-PKDD"
+    location: "Grenoble, France"
+    date: "Sep 2022"
+    sortdate: "2022-09-01"
+
+  - title: "Explainability for Kernel Methods"
+    venue: "ELISE Theory Workshop on ML Fundamentals at Eurecom"
+    location: "Saarbrücken, Germany"
+    date: "Sep 2022"
+    sortdate: "2022-09-01"
+
+  - title: "Deconditional Gaussian Processes"
+    venue: "S-DCE Alan Turing Institute Seminar"
+    location: "London, United Kingdom"
+    date: "Jun 2022"
+    sortdate: "2022-06-01"
+
+  - title: "Explaining Kernel Methods with RKHS-SHAP"
+    venue: "UCL Gatsby Unit"
+    location: "London, United Kingdom"
+    date: "Apr 2022"
+    sortdate: "2022-04-01"
+
+  - title: "Shapley Values for Model Explanations"
+    venue: "Imperial & Oxford STATML Seminar"
+    location: "London, United Kingdom"
+    date: "Feb 2022"
+    sortdate: "2022-02-01"
+
+  # ── 2021 ──────────────────────────────────────────────────────────────────
+
+  - title: "Uncertainty Quantification for Causal Data Fusion"
+    venue: "Warwick ML Group"
+    location: "Warwick, United Kingdom"
+    date: "Jun 2021"
+    sortdate: "2021-06-01"

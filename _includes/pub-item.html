@@ -1,0 +1,12 @@
+<div class="pubitem">
+  <div class="pubtitle">{{ include.pub.title }}</div>
+  <div class="pubauthors">{{ include.pub.authors }}</div>
+  <div class="pubinfo">
+    {% if include.pub.award %}<span class="pubaward">{{ include.pub.award }}</span> {% endif %}{{ include.pub.venue }}, {{ include.pub.year }}
+  </div>
+  <div class="publinks">
+    {% if include.pub.pdf %}<a href="{{ include.pub.pdf }}"><span class="border">PDF</span></a>{% endif %}
+    {% if include.pub.code %}<a href="{{ include.pub.code }}"><span class="border">Code</span></a>{% endif %}
+    {% if include.pub.video %}<a href="{{ include.pub.video }}"><span class="border">Video</span></a>{% endif %}
+  </div>
+</div>

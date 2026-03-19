@@ -4,58 +4,58 @@ title: Presentations
 permalink: /presentations/
 ---
 
-[//]: # ({% assign talks = site.talks | sort: "date" | reverse %})
-
-[//]: # ({% for talk in talks %})
-
-[//]: # (<div class="talk_info">)
-
-[//]: # (    <p class="talk_title">"{{ talk.talk_title }}"</p> )
-
-[//]: # (    <p class="talk_date">{{ talk.date_ }}</p>)
-
-[//]: # (</div>)
-
-[//]: # (<br>)
-
-[//]: # (<div class="location_info">)
-
-[//]: # (    <p class="talk_venue">{{ talk.venue }}</p> )
-
-[//]: # (    <p class="talk_location">{{ talk.location }}</p>)
-
-[//]: # (</div>)
-
-[//]: # (<br>)
-
-[//]: # ({% endfor %})
-
 <style>
-.small-text {
+.year-heading {
+    margin-top: 1.5em;
+    margin-bottom: 0.6em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.2em;
+}
+.talk-item {
+    display: flex;
+    gap: 1.2em;
+    margin-bottom: 0.9em;
     font-size: 0.9em;
 }
-        dt {
-            float: left;
-            clear: left;
-            width: 100px;
-            text-align: left;
-            font-weight: bold;
-        }
-        dd {
-            margin-left: 120px; /* Adjust this value for tab distance */
-        }
+.talk-date {
+    min-width: 70px;
+    color: royalblue;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+.talk-title {
+    font-weight: 600;
+}
+.talk-venue {
+    color: #555;
+    font-style: italic;
+}
+.talk-location {
+    color: #777;
+    font-size: 0.9em;
+}
 </style>
 
+<h2>Invited Presentations</h2>
 
-# Invited Presentations
-{% assign talks = site.talks | sort: "date" | reverse %}
-<div class="small-text">
-<dl>
-{% for talk in talks limit: 100%}
-<dt>{{ talk.date |date: "%b-%Y"}}</dt>
-<dd><b>{{ talk.talk_title }}</b> 
-<br> - <i>{{talk.venue}}</i></dd>
-<br>
+{% assign talks = site.data.talks.items | sort: "sortdate" | reverse %}
+
+{% assign prev_year = "" %}
+{% for talk in talks %}
+  {% assign year = talk.sortdate | slice: 0, 4 %}
+  {% if year != prev_year %}
+    <h3 class="year-heading">{{ year }}</h3>
+    {% assign prev_year = year %}
+  {% endif %}
+  <div class="talk-item">
+    <div class="talk-date">{{ talk.date }}</div>
+    <div class="talk-body">
+      <div class="talk-title">
+        {{ talk.title }}
+        {% if talk.slides %}<a href="{{ talk.slides }}" style="font-weight:normal; font-size:0.85em;">[slides]</a>{% endif %}
+      </div>
+      <div class="talk-venue">{{ talk.venue }}</div>
+      <div class="talk-location">{{ talk.location }}</div>
+    </div>
+  </div>
 {% endfor %}
-</dl>
-</div>

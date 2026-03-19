@@ -44,7 +44,7 @@ personal statement
 (approximately 1–2 pages), please summarise your research background and explain how it connects to the research topics you hope to 
 explore. Feel free to mention a research paper from our group that has particularly captured your interest.</span></p>
 
-🚨🚨<span style="color: #c300d9"> I strongly advise applicants to read my <a href="https://chau999.github.io/assets/research_statement/research_statement.pdf">research statement</a> 
+🚨🚨<span style="color: #c300d9"> I strongly advise applicants to read my <a href="https://chau999.github.io/assets/documents/research-statement.pdf">research statement</a> 
 before reaching out. </span>
 
 <h4><center>🎗Funding opportunities </center></h4>
@@ -67,4 +67,4 @@ A*STAR</li>
 
 [//]: # (<h3> Recruitment letter </h3>)
 
-[//]: # (<object data="../assets/research_group/recruitment_letter.pdf" width="100%" height="1100" type='application/pdf'></object>)
+[//]: # (<object data="../assets/documents/recruitment-letter.pdf" width="100%" height="1100" type='application/pdf'></object>)

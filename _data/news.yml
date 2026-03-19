@@ -1,0 +1,52 @@
+items:
+
+  - date: "2025-10-28"
+    text: "I am co-organising the [1st Workshop on Epistemic Intelligence in Machine Learning](https://sites.google.com/view/eiml-eurips2025/home) at EurIPS 2025! Please come and visit if you care about knowledge-level uncertainty and want to have a discussion with the community!"
+
+  - date: "2025-09-01"
+    text: "Our paper [Integral Imprecise Probability Metrics](https://arxiv.org/pdf/2505.16156) has been accepted at NeurIPS 2025!"
+
+  - date: "2025-07-20"
+    text: "Honoured to receive the IJAR Young Researcher Award (First Prize) at ISIPTA 2025, a milestone recognising our efforts at the intersection of imprecise probability and machine learning!"
+
+  - date: "2025-05-07"
+    text: "Our paper on [Truthful Elicitation of Imprecise Forecasts](https://arxiv.org/pdf/2503.16395) has been accepted at UAI 2025 as an Oral paper!"
+
+  - date: "2025-05-01"
+    text: "Our paper \"Kernel Quantile Embeddings and their Associated Probability Metrics\" has been accepted at ICML 2025!"
+
+  - date: "2025-05-30"
+    text: "I will be presenting [Credal Two-sample Testing](https://arxiv.org/pdf/2410.12921) at ISIPTA 2025! Excited to share this work with the Imprecise Probability community!"
+
+  - date: "2025-01-25"
+    text: "Our paper on the first ever [Credal Two-sample Testing](https://arxiv.org/pdf/2410.12921) has been accepted at AISTATS 2025! Many thanks to the amazing crowd of collaborators."
+
+  - date: "2024-11-01"
+    text: "I will be starting my Assistant Professorship at the [College of Computing and Data Science](https://www.ntu.edu.sg/academics/colleges-schools) at [Nanyang Technological University](https://www.ntu.edu.sg/) in Singapore in May 2025."
+
+  - date: "2024-05-01"
+    text: "Our paper [Domain Generalisation via Imprecise Learning](https://arxiv.org/abs/2404.04669) has been accepted as a spotlight paper at ICML 2024!"
+
+  - date: "2024-02-25"
+    text: "I was invited to participate in the Dagstuhl Seminar on [AI for Social Good](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/24082) to learn about and tackle challenges faced by NGOs when implementing AI solutions."
+
+  - date: "2023-12-15"
+    text: "Our paper ['Causal Strategic Learning with Competitive Selection'](https://arxiv.org/abs/2308.16262) has been accepted at AAAI as an oral paper!"
+
+  - date: "2023-12-06"
+    text: "Presenting a poster spotlight on ['Explaining Gaussian Process Models with Stochastic Shapley Values'](https://arxiv.org/pdf/2305.15167.pdf) at the Australian Data Science Network conference."
+
+  - date: "2023-11-01"
+    text: "I am at the Australian Institute for Machine Learning as a visiting researcher from November onwards!"
+
+  - date: "2023-09-22"
+    text: "Our paper ['Explaining the Uncertain: Stochastic Shapley Values for Gaussian Process Models'](https://arxiv.org/pdf/2305.15167.pdf) has been accepted at NeurIPS as a spotlight paper!"
+
+  - date: "2023-09-01"
+    text: "Our paper ['Gated Domain Units for Multi-source Domain Generalization'](https://arxiv.org/pdf/2206.12444.pdf) has been accepted for publication in Transactions on Machine Learning Research (TMLR)."
+
+  - date: "2023-09-01"
+    text: "I have officially started my postdoc at CISPA!"
+
+  - date: "2023-07-01"
+    text: "I have passed my Ph.D. viva!"
