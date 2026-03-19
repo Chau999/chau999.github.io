@@ -84,20 +84,31 @@ I would be delighted to hear from you.
 </p>
 
 
-<br>
+[//]: # (<br>)
 
+[//]: # ()
+[//]: # ()
+[//]: # ({% assign news = site.data.news.items | sort: "date" | reverse %})
 
-{% assign news = site.data.news.items | sort: "date" | reverse %}
-<h3>News</h3>
-<div class="small-text">
-<dl>
-{% for item in news limit: 5 %}
-<dt>{{ item.date | date: "%b %Y" }}</dt>
-<dd>{{ item.text | markdownify }}</dd>
-{% endfor %}
-</dl>
-</div>
+[//]: # (<h3>News</h3>)
 
+[//]: # (<div class="small-text">)
 
+[//]: # (<dl>)
 
+[//]: # ({% for item in news limit: 0 %})
 
+[//]: # (<dt>{{ item.date | date: "%b %Y" }}</dt>)
+
+[//]: # (<dd>{{ item.text | markdownify }}</dd>)
+
+[//]: # ({% endfor %})
+
+[//]: # (</dl>)
+
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
