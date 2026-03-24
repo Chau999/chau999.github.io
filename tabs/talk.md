@@ -2,6 +2,7 @@
 layout: page
 title: Presentations
 permalink: /presentations/
+published: false
 ---
 
 [//]: # ({% assign talks = site.talks | sort: "date" | reverse %})

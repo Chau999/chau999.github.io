@@ -1,12 +1,21 @@
 <div class="pubitem">
   <div class="pubtitle">{{ include.pub.title }}</div>
-  <div class="pubauthors">{{ include.pub.authors }}</div>
+  <div class="pubauthors">
+    {% assign _authors = include.pub.authors_display %}
+    {% if _authors contains "Siu Lun Chau" %}
+      {% assign _authors = _authors | replace: "Siu Lun Chau", "<ins>Siu Lun Chau</ins>" %}
+    {% endif %}
+    {{ _authors }}
+  </div>
   <div class="pubinfo">
-    {% if include.pub.award %}<span class="pubaward">{{ include.pub.award }}</span> {% endif %}{{ include.pub.venue }}, {{ include.pub.year }}
+    {% if include.pub.award %}<span class="pubaward">({{ include.pub.award }})</span> {% endif %}{{ include.pub.venue }}, {{ include.pub.year }}
   </div>
   <div class="publinks">
-    {% if include.pub.pdf %}<a href="{{ include.pub.pdf }}"><span class="border">PDF</span></a>{% endif %}
-    {% if include.pub.code %}<a href="{{ include.pub.code }}"><span class="border">Code</span></a>{% endif %}
-    {% if include.pub.video %}<a href="{{ include.pub.video }}"><span class="border">Video</span></a>{% endif %}
+    {% if include.pub.pdf %}<a href="{{ include.pub.pdf }}" class="border">PDF</a> {% endif %}
+    {% if include.pub.code %}<a href="{{ include.pub.code }}" class="border">Code</a> {% endif %}
+    {% if include.pub.video %}<a href="{{ include.pub.video }}" class="border">Video</a> {% endif %}
+    <a href="#" class="border bib-btn" data-key="{{ include.pub.key }}">BibTeX</a>
   </div>
 </div>
+<!-- hidden store for the raw BibTeX of this entry -->
+<div id="bib-{{ include.pub.key }}" class="bib-raw-store">{{ include.pub.raw | escape }}</div>

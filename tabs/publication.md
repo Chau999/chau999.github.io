@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Publications
-permalink: /pubs/
+permalink: /pubs-old/
+published: false
 ---
 
 <style>
