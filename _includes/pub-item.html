@@ -1,5 +1,5 @@
 <div class="pubitem">
-  <div class="pubtitle">{{ include.pub.title }}</div>
+  <div class="pubtitle">{% if include.number %}<span class="pubnum">[{{ include.number }}]</span> {% endif %}{{ include.pub.title }}</div>
   <div class="pubauthors">
     {% assign _authors = include.pub.authors_display %}
     {% if _authors contains "Siu Lun Chau" %}
