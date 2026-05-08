@@ -35,7 +35,7 @@ permalink: /pubs/
     padding: 1px 5px;
     font-size: 0.85em;
 }
-.year-heading {
+.cat-heading {
     margin-top: 1.5em;
     margin-bottom: 0.6em;
     border-bottom: 1px solid #ddd;
@@ -95,15 +95,17 @@ permalink: /pubs/
 </style>
 
 {% assign pubs = site.data.bib_pubs %}
-{% assign years = pubs | map: "year" | uniq %}
+{% assign category_keys = "preprint,published,workshop,thesis" | split: "," %}
+{% assign category_titles = "Preprints,Published Papers,Workshop Contributions,Thesis" | split: "," %}
 
-{% for year in years %}
-<h3 class="year-heading">{{ year }}</h3>
-{% for pub in pubs %}
-  {% if pub.year == year %}
-    {% include pub-item.html pub=pub %}
+{% for cat in category_keys %}
+  {% assign cat_pubs = pubs | where: "category", cat %}
+  {% if cat_pubs.size > 0 %}
+    <h3 class="cat-heading">{{ category_titles[forloop.index0] }}</h3>
+    {% for pub in cat_pubs %}
+      {% include pub-item.html pub=pub %}
+    {% endfor %}
   {% endif %}
-{% endfor %}
 {% endfor %}
 
 <!-- BibTeX modal overlay -->

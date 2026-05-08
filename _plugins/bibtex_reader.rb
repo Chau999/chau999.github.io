@@ -75,12 +75,15 @@ module Jekyll
         fields = parse_fields(inner[km.end(0)..])
         raw    = build_raw_bib(type, key, fields)
 
+        venue = fields['journal'] || fields['booktitle'] || fields['school'] || ''
+
         entry = {
           'key'             => key,
           'type'            => type,
           'raw'             => raw,
-          'venue'           => fields['journal'] || fields['booktitle'] || fields['school'] || '',
-          'authors_display' => format_authors(fields['author'] || '')
+          'venue'           => venue,
+          'authors_display' => format_authors(fields['author'] || ''),
+          'category'        => infer_category(type, venue, fields['category'])
         }
         entries << entry.merge(fields)
       end
@@ -139,6 +142,17 @@ module Jekyll
       lines[-1] = lines[-1].chomp(',') if lines.size > 1
       lines << '}'
       lines.join("\n")
+    end
+
+    # ── category inference ────────────────────────────────────────────────────
+    # Recognised categories: preprint, published, workshop, thesis.
+    # An explicit `category` field in the BibTeX entry takes precedence.
+
+    def infer_category(type, venue, override)
+      return override.downcase.strip if override && !override.empty?
+      return 'thesis' if type == 'phdthesis'
+      return 'preprint' if venue.to_s.downcase.include?('arxiv preprint')
+      'published'
     end
 
     # ── author formatting ─────────────────────────────────────────────────────
