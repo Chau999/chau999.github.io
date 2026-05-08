@@ -105,7 +105,7 @@ permalink: /pubs/
 {% assign counter = pubs | size %}
 
 {% for cat in category_keys %}
-  {% assign cat_pubs = pubs | where: "category", cat %}
+  {% assign cat_pubs = pubs | where: "category", cat | sort: "year" | reverse %}
   {% if cat_pubs.size > 0 %}
     <h3 class="cat-heading">{{ category_titles[forloop.index0] }}</h3>
     {% for pub in cat_pubs %}
