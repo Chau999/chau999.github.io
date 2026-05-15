@@ -1,0 +1,16 @@
+# Bibliometric summary, rendered inline at the top of the Publications
+# section (between the "Publications" heading and "Conference Papers").
+#
+# Update these manually each time you refresh your Google Scholar
+# (or Scopus / Web of Science / Semantic Scholar) profile.
+# Leave any field blank ("") to hide that figure. The whole section
+# auto-hides if all three counts are blank.
+
+source: "Google Scholar"      # name of the metrics source
+url: "https://scholar.google.com/citations?user=e7ZBlIsAAAAJ&hl=en"                       # full URL to your profile -- rendered as a link if set
+as_of: "May 2026"                     # e.g. "May 2026" -- falls back to today's build date if blank
+
+# Counts (write the number as a string for thousands separators)
+citations: "466"                 # total citations, e.g. "1,234"
+h_index: "13"                   # h-index, e.g. "12"
+i10_index: "14"                 # i10-index, e.g. "18"

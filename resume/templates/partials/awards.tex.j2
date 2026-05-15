@@ -1,0 +1,6 @@
+\section{Awards \& Recognition}
+\begin{itemize}
+<% for a in awards %>
+  \item << a.name >><% if a.note %>. << a.note >><% endif %>.
+<% endfor %>
+\end{itemize}

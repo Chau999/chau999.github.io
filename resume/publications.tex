@@ -1,0 +1,391 @@
+% !TEX program = pdflatex
+%
+% Detailed publication list for Siu Lun Chau.
+% Citation counts and venues sourced from Google Scholar (12 May 2026).
+% Full author lists and titles sourced from publications.bib.
+% Grouped by publication type; ordered chronologically (newest first)
+% within each group, with citation count as a tie-breaker.
+%
+\documentclass[11pt,a4paper]{article}
+
+% ---------- Packages ----------
+\usepackage[margin=2cm,top=2.2cm,bottom=2.2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{charter}
+\linespread{1.05}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[skip=3pt plus 1pt minus 1pt]{parskip}
+\usepackage{etoolbox}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+
+% ---------- Colours ----------
+\definecolor{accent}{HTML}{1F4E79}
+\definecolor{award}{HTML}{B22222}
+\definecolor{citecol}{HTML}{2E7D32}
+\definecolor{mutedgrey}{HTML}{777777}
+\hypersetup{colorlinks=true,linkcolor=accent,urlcolor=accent,citecolor=accent}
+
+% ---------- Layout ----------
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\Large\bfseries\color{accent}}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{4pt}
+
+% ---------- Helpers ----------
+\newcommand{\me}{\textbf{Siu Lun Chau}}
+\newcommand{\acro}[1]{\textcolor{accent}{\textbf{#1}}}
+\newcommand{\award}[1]{\textcolor{award}{\textbf{#1}}}
+\newcommand{\venue}[2]{\textit{#1} (\acro{#2})}
+\newcommand{\venueplain}[1]{\textit{#1}}
+\newcommand{\pdfb}[1]{\,\href{#1}{\textcolor{accent}{\small[pdf]}}}
+\newcommand{\codeb}[1]{\,\href{#1}{\textcolor{accent}{\small[code]}}}
+\newcommand{\videob}[1]{\,\href{#1}{\textcolor{accent}{\small[video]}}}
+
+\newlength{\citecolwidth}\setlength{\citecolwidth}{2.4cm}
+\newlength{\indexcolwidth}\setlength{\indexcolwidth}{3.2em}
+\newcommand{\citebox}[2]{%
+  {\color{citecol}\textbf{\large #1}}\\[1pt]
+  {\color{mutedgrey}\small #2}%
+}
+\newcommand{\pubentry}[4]{%
+  \noindent
+  \makebox[\indexcolwidth][l]{\textbf{[#1]}}%
+  \begin{minipage}[t]{\dimexpr\linewidth-\indexcolwidth-\citecolwidth-0.4em\relax}#2\end{minipage}%
+  \hspace{0.4em}%
+  \begin{minipage}[t]{\citecolwidth}\raggedleft\citebox{#3}{#4}\end{minipage}%
+  \par\vspace{6pt}}
+
+% ---------- Footer ----------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\small\color{accent}Siu Lun Chau --- Publications}
+\fancyfoot[C]{\small\color{accent}Compiled: May 12, 2026}
+\fancyfoot[R]{\small\color{accent}\thepage~/~\pageref*{LastPage}}
+\fancypagestyle{plain}{\fancyhf{}\renewcommand{\headrulewidth}{0pt}%
+  \fancyfoot[L]{\small\color{accent}Siu Lun Chau --- Publications}%
+  \fancyfoot[C]{\small\color{accent}Compiled: May 12, 2026}%
+  \fancyfoot[R]{\small\color{accent}\thepage~/~\pageref*{LastPage}}}
+
+\begin{document}
+
+% ---------- Title block ----------
+\noindent
+{\Huge\bfseries\color{accent} Siu Lun Chau}\\[4pt]
+{\large List of Publications}\\[2pt]
+\textit{Assistant Professor, College of Computing \& Data Science, Nanyang Technological University}\\
+\textit{Principal Investigator, Epistemic Intelligence \& Computation Lab}
+
+\vspace{6pt}
+
+% ---------- Citation Summary ----------
+\noindent
+\begin{tabularx}{\linewidth}{@{}lcccc@{}}
+\toprule
+\textbf{Google Scholar (12 May 2026)} & \textbf{Citations} & \textbf{h-index} & \textbf{i10-index} & \textbf{Publications listed} \\
+\midrule
+All time   & 466 & 13 & 14 & 36 \\
+Since 2021 & 465 & 13 & 14 & --- \\
+\bottomrule
+\end{tabularx}
+
+\vspace{4pt}
+\noindent\small Author's name is set in \textbf{bold}. Venue acronyms appear in {\color{accent}\textbf{blue}}. Awards/honours are in {\color{award}\textbf{red}}. The right-hand column shows the {\color{citecol}\textbf{citation count}} (from Google Scholar at the date above) and the publication year. Co-first authorship is marked with $^{*}$. Entries within each section are ordered by year (newest first); within the same year they are ordered by citation count.
+\normalsize
+
+% ---------- Venue legend ----------
+\section{Venue Acronyms}
+\noindent
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\acro{NeurIPS}    & Conference on Neural Information Processing Systems \\
+\acro{ICML}       & International Conference on Machine Learning \\
+\acro{AISTATS}    & International Conference on Artificial Intelligence and Statistics \\
+\acro{AAAI}       & AAAI Conference on Artificial Intelligence \\
+\acro{UAI}        & Conference on Uncertainty in Artificial Intelligence \\
+\acro{ECML-PKDD}  & European Conference on Machine Learning and Principles \& Practice of Knowledge Discovery in Databases \\
+\acro{Nat.~Comm.} & Nature Communications \\
+\acro{TMLR}       & Transactions on Machine Learning Research \\
+\acro{IEEE TSIPN} & IEEE Transactions on Signal and Information Processing over Networks \\
+\end{tabularx}
+
+% =====================================================================
+\section{Journal Articles}
+% =====================================================================
+
+\pubentry{J1}{%
+\textbf{Highly Parallel Optimisation of Chemical Reactions through Automation and Machine Intelligence.}\\
+Joshua W.\ Sin, \me, Ryan P.\ Burwood, Kurt P\"untener, Raphael Bigler, Philippe Schwaller.\\
+\venue{Nature Communications}{Nat.~Comm.}, vol.~16(1), 6464.%
+\pdfb{https://chemrxiv.org/engage/chemrxiv/article-details/66f976b5cec5d6c142981e4e}\codeb{https://github.com/schwallergroup/minerva}%
+}{32}{2025}
+
+\pubentry{J2}{%
+\textbf{Gated Domain Units for Multi-source Domain Generalization.}\\
+Simon F\"oll, Alina Dubatovka, Eugen Ernst, \me, Martin Maritsch, Patrik Okanovic, Gudrun Thaeter, Joachim M.\ Buhmann, Felix Wortmann, Krikamol Muandet.\\
+\venue{Transactions on Machine Learning Research}{TMLR}.%
+\pdfb{https://arxiv.org/pdf/2206.12444.pdf}\codeb{https://github.com/im-ethz/pub-gdu4dg}%
+}{7}{2023}
+
+\pubentry{J3}{%
+\textbf{Kernel-based Graph Learning from Smooth Signals: A Functional Viewpoint.}\\
+Xingyue Pu, \me, Xiaowen Dong, Dino Sejdinovic.\\
+\venue{IEEE Transactions on Signal and Information Processing over Networks}{IEEE TSIPN}, vol.~7, pp.~192--207.%
+\pdfb{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9356326}%
+}{30}{2021}
+
+% =====================================================================
+\section{Conference \& Workshop Papers (Peer-Reviewed)}
+% =====================================================================
+
+% ----- 2026 -----
+\pubentry{C1}{%
+\textbf{Exact Shapley Attributions in Quadratic-time for fANOVA Gaussian Processes.}\\
+Majid Mohammadi, Krikamol Muandet, Ilaria Tiddi, Annette Ten Teije, \me.\\
+\venue{Proceedings of the AAAI Conference on Artificial Intelligence}{AAAI 2026}, vol.~40(29), pp.~24414--24421.%
+\pdfb{https://arxiv.org/pdf/2508.14499v1}%
+}{5}{2026}
+
+\pubentry{C2}{%
+\textbf{Explanation Design in Strategic Learning: Sufficient Explanations that Induce Non-harmful Responses.}\\
+Kiet QH Vo, \me, Masahiro Kato, Yixin Wang, Krikamol Muandet.\\
+\venue{29th International Conference on Artificial Intelligence and Statistics}{AISTATS 2026}.%
+\pdfb{https://arxiv.org/pdf/2502.04058}\codeb{https://github.com/muandet-lab/sl-leaf}%
+}{3}{2026}
+
+\pubentry{C3}{%
+\textbf{Learning Credal Ensembles via Distributionally Robust Optimization.}\\
+Kaizheng Wang, Ghifari Adam Faza, Fabio Cuzzolin, \me, David Moens, Hans Hallez.\\
+\venue{International Conference on Machine Learning}{ICML 2026} --- \award{Spotlight}.%
+\pdfb{https://arxiv.org/pdf/2602.08470}%
+}{1}{2026}
+
+\pubentry{C4}{%
+\textbf{Off-Policy Evaluation with Strategic Agents via Local Disclosure.}\\
+Kiet QH Vo, Abbavaram Gowtham Reddy, Julian Rodemann, \me, Krikamol Muandet.\\
+\venue{International Conference on Machine Learning}{ICML 2026}.%
+}{--}{2026}
+
+% ----- 2025 -----
+\pubentry{C5}{%
+\textbf{Credal Two-Sample Tests of Epistemic Uncertainty.}\\
+\me, Antonin Schrab, Arthur Gretton, Dino Sejdinovic, Krikamol Muandet.\\
+\venue{International Conference on Artificial Intelligence and Statistics}{AISTATS 2025}, PMLR, pp.~127--135.%
+\pdfb{https://arxiv.org/pdf/2410.12921}\codeb{https://github.com/muandet-lab/CredalTwoSampleTests}\videob{https://www.youtube.com/watch?v=Rq9qW0GZJeE}%
+}{29}{2025}
+
+\pubentry{C6}{%
+\textbf{Integral Imprecise Probability Metrics.}\\
+\me, Michele Caprio, Krikamol Muandet.\\
+\venue{Thirty-ninth Annual Conference on Neural Information Processing Systems}{NeurIPS 2025}.%
+\pdfb{https://arxiv.org/pdf/2505.16156}%
+}{13}{2025}
+
+\pubentry{C7}{%
+\textbf{Truthful Elicitation of Imprecise Forecasts.}\\
+Anurag Singh, \me, Krikamol Muandet.\\
+\venue{Conference on Uncertainty in Artificial Intelligence}{UAI 2025}, PMLR, pp.~3898--3919 --- \award{Oral}.%
+\pdfb{http://arxiv.org/pdf/2503.16395}\codeb{https://github.com/muandet-lab/Imprecise-Scoring-Rule}%
+}{8}{2025}
+
+\pubentry{C8}{%
+\textbf{Kernel Quantile Embeddings and Associated Probability Metrics.}\\
+Masha Naslidnyk, \me, Fran\c cois-Xavier Briol, Krikamol Muandet.\\
+\venue{International Conference on Machine Learning}{ICML 2025}, PMLR, pp.~45770--45800.%
+\pdfb{https://arxiv.org/pdf/2505.20433}%
+}{1}{2025}
+
+% ----- 2024 -----
+\pubentry{C9}{%
+\textbf{Looping in the Human: Collaborative and Explainable Bayesian Optimization.}\\
+Masaki Adachi, Brady Planden, David Howey, Michael A.\ Osborne, Sebastian Orbell, Natalia Ares, Krikamol Muandet, \me.\\
+\venue{International Conference on Artificial Intelligence and Statistics}{AISTATS 2024}, PMLR, pp.~505--513.%
+\pdfb{https://arxiv.org/pdf/2310.17273.pdf}\codeb{https://anonymous.4open.science/r/CoExBO-4B06/}%
+}{40}{2024}
+
+\pubentry{C10}{%
+\textbf{Domain Generalisation via Imprecise Learning.}\\
+Anurag Singh, \me, Shahine Bouabid, Krikamol Muandet.\\
+\venue{41st International Conference on Machine Learning}{ICML 2024}, pp.~45544--45570 --- \award{Spotlight}.%
+\pdfb{https://arxiv.org/pdf/2404.04669}\codeb{https://github.com/muandet-lab/dgil}%
+}{25}{2024}
+
+\pubentry{C11}{%
+\textbf{Causal Strategic Learning with Competitive Selection.}\\
+Kiet QH Vo, Muneeb Aadil, \me, Krikamol Muandet.\\
+\venue{Proceedings of the AAAI Conference on Artificial Intelligence}{AAAI 2024}, vol.~38(14), pp.~15411--15419 --- \award{Oral}.%
+\pdfb{https://arxiv.org/pdf/2308.16262.pdf}\codeb{https://github.com/muandet-lab/causal-strategic-learning-with-selection}%
+}{11}{2024}
+
+% ----- 2023 -----
+\pubentry{C12}{%
+\textbf{Explaining the Uncertain: Stochastic Shapley Values for Gaussian Process Models.}\\
+\me, Krikamol Muandet, Dino Sejdinovic.\\
+\venue{Advances in Neural Information Processing Systems}{NeurIPS 2023}, vol.~36, pp.~50769--50795 --- \award{Spotlight}.%
+\pdfb{https://arxiv.org/pdf/2305.15167.pdf}\codeb{https://github.com/muandet-lab/ExplainingGaussianProcess}\videob{https://slideslive.com/39009992/explaining-the-uncertain-stochastic-shapley-values-for-gaussian-process-models}%
+}{41}{2023}
+
+% ----- 2022 -----
+\pubentry{C13}{%
+\textbf{RKHS-SHAP: Shapley Values for Kernel Methods.}\\
+\me, Robert Hu, Javier Gonzalez, Dino Sejdinovic.\\
+\venue{Advances in Neural Information Processing Systems}{NeurIPS 2022}, vol.~35, pp.~13050--13063.%
+\pdfb{https://proceedings.neurips.cc/paper_files/paper/2022/file/54bb63eaec676b87a2278a22b1bd02a2-Paper-Conference.pdf}\codeb{https://github.com/Chau999/RKHS-SHAP}\videob{https://www.youtube.com/watch?v=olmSYH-daG0}%
+}{63}{2022}
+
+\pubentry{C14}{%
+\textbf{Spectral Ranking with Covariates.}\\
+\me, Mihai Cucuringu, Dino Sejdinovic.\\
+\venue{Joint European Conference on Machine Learning and Knowledge Discovery in Databases}{ECML-PKDD 2022}, Springer, pp.~70--86.%
+\pdfb{https://arxiv.org/pdf/2005.04035.pdf}\codeb{https://github.com/Chau999/SpectralRankingWithCovariates}%
+}{20}{2022}
+
+\pubentry{C15}{%
+\textbf{Learning Inconsistent Preferences with Gaussian Processes.}\\
+\me, Javier Gonzalez, Dino Sejdinovic.\\
+\venue{International Conference on Artificial Intelligence and Statistics}{AISTATS 2022}, PMLR, pp.~2266--2281.%
+\pdfb{https://proceedings.mlr.press/v151/lun-chau22a/lun-chau22a.pdf}\videob{https://slideslive.at/38980474/learning-inconsistent-preferences-with-gaussian-processes}%
+}{18}{2022}
+
+\pubentry{C16}{%
+\textbf{Explaining Preferences with Shapley Values.}\\
+Robert Hu$^{*}$, \me$^{*}$, Jaime Ferrando Huertas, Dino Sejdinovic ($^{*}$ co-first authors).\\
+\venue{Advances in Neural Information Processing Systems}{NeurIPS 2022}, vol.~35, pp.~27664--27677.%
+\pdfb{https://proceedings.neurips.cc/paper_files/paper/2022/file/b1656d20067ca7c84a33785c4083a75e-Paper-Conference.pdf}\codeb{https://github.com/MrHuff/PREF-SHAP}\videob{https://slideslive.com/38992229/explaining-preferences-with-shapley-values}%
+}{17}{2022}
+
+\pubentry{C17}{%
+\textbf{Giga-scale Kernel Matrix-Vector Multiplication on GPU.}\\
+Robert Hu, \me, Dino Sejdinovic, Joan Glaun\`es.\\
+\venue{Advances in Neural Information Processing Systems}{NeurIPS 2022}, vol.~35, pp.~9045--9057.%
+\pdfb{https://arxiv.org/pdf/2202.01085.pdf}\codeb{https://anonymous.4open.science/r/F3M-7850/readme.md}%
+}{4}{2022}
+
+% ----- 2021 -----
+\pubentry{C18}{%
+\textbf{Deconditional Downscaling with Gaussian Processes.}\\
+\me$^{*}$, Shahine Bouabid$^{*}$, Dino Sejdinovic ($^{*}$ co-first authors).\\
+\venue{Advances in Neural Information Processing Systems}{NeurIPS 2021}, vol.~34, pp.~17813--17825.%
+\pdfb{https://proceedings.neurips.cc/paper/2021/hash/96f2b50b5d3613adf9c27049b3a839b6-Abstract.html}\codeb{https://github.com/shahineb/deconditional-downscaling}\videob{https://slideslive.com/38967430/deconditional-downscaling-with-gaussian-processes}%
+}{40}{2021}
+
+\pubentry{C19}{%
+\textbf{BayesIMP: Uncertainty Quantification for Causal Data Fusion.}\\
+\me$^{*}$, Jean-Francois Ton$^{*}$, Javier Gonz\'alez, Yee Whye Teh, Dino Sejdinovic ($^{*}$ co-first authors).\\
+\venue{Advances in Neural Information Processing Systems}{NeurIPS 2021}, vol.~34, pp.~3466--3477.%
+\pdfb{https://proceedings.neurips.cc/paper/2021/file/1ca5c750a30312d1919ae6a4d636dcc4-Paper.pdf}\videob{https://slideslive.com/38968202/bayesimp-uncertainty-quantification-for-causal-data-fusion}%
+}{36}{2021}
+
+% =====================================================================
+\section{Doctoral Thesis}
+% =====================================================================
+
+\pubentry{T1}{%
+\textbf{Towards Trustworthy Machine Learning with Kernels.}\\
+\me.\\
+\venueplain{DPhil (PhD) Thesis, University of Oxford}.%
+\pdfb{https://ora.ox.ac.uk/objects/uuid:24c81031-e078-4481-a677-e7a51b659bfc}%
+}{1}{2023}
+
+% =====================================================================
+\section{Preprints (Under Review / arXiv)}
+% =====================================================================
+
+% ----- 2026 -----
+\pubentry{P1}{%
+\textbf{Quantifying Epistemic Predictive Uncertainty in Conformal Prediction.}\\
+\me, Soroush H.\ Zargarbashi, Yusuf Sale, Michele Caprio.\\
+\venueplain{arXiv preprint arXiv:2602.01667}.%
+\pdfb{https://arxiv.org/pdf/2602.01667}\codeb{https://anonymous.4open.science/r/ConformalMMI-1244/README.md}%
+}{3}{2026}
+
+\pubentry{P2}{%
+\textbf{QuadraSHAP: Stable and Scalable Shapley Values for Product Games via Gauss--Legendre Quadrature.}\\
+Majid Mohammadi, Grigory Reznikov, Pavel Sinitcyn, Krikamol Muandet, \me.\\
+\venueplain{arXiv preprint arXiv:2605.05870}.%
+\pdfb{https://arxiv.org/pdf/2605.05870}%
+}{--}{2026}
+
+\pubentry{P3}{%
+\textbf{Measuring Differences between Conditional Distributions using Kernel Embeddings.}\\
+Peter Moskvichev, \me, Dino Sejdinovic.\\
+\venueplain{arXiv preprint arXiv:2605.02260}.%
+}{--}{2026}
+
+\pubentry{P4}{%
+\textbf{Quantification of Credal Uncertainty: A Distance-Based Approach.}\\
+Xabier Gonzalez-Garcia, \me, Julian Rodemann, Michele Caprio, Krikamol Muandet, Humberto Bustince, S\'ebastien Destercke, Eyke H\"ullermeier, Yusuf Sale.\\
+\venueplain{arXiv preprint arXiv:2603.27270}.%
+\pdfb{https://arxiv.org/abs/2603.27270}%
+}{--}{2026}
+
+\pubentry{P5}{%
+\textbf{Verbalizing LLM's Higher-order Uncertainty via Imprecise Probabilities.}\\
+Anita Yang, Krikamol Muandet, Michele Caprio, \me, Masaki Adachi.\\
+\venueplain{arXiv preprint arXiv:2603.10396}.%
+\pdfb{https://arxiv.org/pdf/2603.10396}%
+}{--}{2026}
+
+\pubentry{P6}{%
+\textbf{Incentive Aware AI Regulations: A Credal Characterisation.}\\
+Anurag Singh, Julian Rodemann, Rajeev Verma, \me, Krikamol Muandet.\\
+\venueplain{arXiv preprint arXiv:2603.05175}.%
+\pdfb{https://arxiv.org/pdf/2603.05175}\codeb{https://github.com/muandet-lab/incentive-aware-ai-regulation}%
+}{--}{2026}
+
+\pubentry{P7}{%
+\textbf{Instrumental and Proximal Causal Inference with Gaussian Processes.}\\
+Yuqi Zhang, Krikamol Muandet, Dino Sejdinovic, Edwin Fong, \me.\\
+\venueplain{arXiv preprint arXiv:2603.02159}.%
+\pdfb{https://arxiv.org/pdf/2603.02159}%
+}{--}{2026}
+
+\pubentry{P8}{%
+\textbf{Set-based vs Distribution-based Representations of Epistemic Uncertainty: A Comparative Study.}\\
+Kaizheng Wang, Yunjia Wang, Fabio Cuzzolin, David Moens, Hans Hallez, \me.\\
+\venueplain{arXiv preprint arXiv:2602.22747}.%
+\pdfb{https://arxiv.org/pdf/2602.22747}%
+}{--}{2026}
+
+\pubentry{P9}{%
+\textbf{Robust Predictive Uncertainty and Double Descent in Contaminated Bayesian Random Features.}\\
+Michele Caprio, Katerina Papagiannouli, \me, Sayan Mukherjee.\\
+\venueplain{arXiv preprint arXiv:2602.19126}.%
+\pdfb{https://arxiv.org/pdf/2602.19126}%
+}{--}{2026}
+
+% ----- 2025 -----
+\pubentry{P10}{%
+\textbf{Amortized Linear-time Exact Shapley Value for Product-Kernel Methods.}\\
+Majid Mohammadi$^{*}$, \me$^{*}$, Krikamol Muandet ($^{*}$ co-first authors).\\
+\venueplain{arXiv preprint arXiv:2505.16516} (also listed on Scholar as ``Computing exact Shapley values in polynomial time for product-kernel methods'').%
+\pdfb{https://arxiv.org/pdf/2505.16516}%
+}{9}{2025}
+
+\pubentry{P11}{%
+\textbf{Bayesian Optimization for Building Social-Influence-Free Consensus.}\\
+Masaki Adachi, \me, Wenjie Xu, Anurag Singh, Michael A.\ Osborne, Krikamol Muandet.\\
+\venueplain{arXiv preprint arXiv:2502.07166}.%
+\pdfb{https://arxiv.org/pdf/2502.07166}%
+}{7}{2025}
+
+\pubentry{P12}{%
+\textbf{When Do Credal Sets Stabilize? Fixed-Point Theorems for Credal Set Updates.}\\
+Michele Caprio, \me, Krikamol Muandet.\\
+\venueplain{arXiv preprint arXiv:2510.04769}.%
+\pdfb{https://arxiv.org/pdf/2510.04769}%
+}{2}{2025}
+
+\vspace{6pt}
+\noindent\small\textit{End of publication list. Total entries: 36
+(3 journals, 19 conference/workshop papers, 1 thesis, 12 preprints).
+Citation counts current as of 12 May 2026. ``--'' denotes a publication not yet cited on Google Scholar.}
+
+\end{document}

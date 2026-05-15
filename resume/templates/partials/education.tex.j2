@@ -1,0 +1,4 @@
+\section{Education}
+<% for e in education %>
+\entry{<< e.start >>--<< e.end >>}{\textbf{<< e.degree >>}, << e.institution >><% if e.note %>. << e.note >><% endif %>}
+<% endfor %>

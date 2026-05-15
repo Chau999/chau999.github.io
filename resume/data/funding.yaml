@@ -1,0 +1,23 @@
+# Research funding.
+# Each entry: { start, end, title, role, amount, source }
+
+- start: 2025
+  end: 2028
+  title: "Foundations and Applications of Epistemic Machine Learning"
+  role: "PI"
+  amount: "S\\$150{,}000"
+  source: "NTU Start-Up Grant"
+
+- start: 2025
+  end: 2025
+  title: "Sponsorship for EIML@EurIPS 2025"
+  source: "ELLIS Unit Manchester Event Support Fund"
+  amount: "GBP 4,000"
+  role: "Applicatant"
+
+- start: 2026
+  end: 2026
+  title: "Sponsorship for EIML@ICML 2026"
+  source: "ELLIS Unit Manchester Event Support Fund"
+  amount: "GBP 4,000"
+  role: "Applicatant"

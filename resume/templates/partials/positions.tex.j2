@@ -1,0 +1,4 @@
+\section{Work Experiences}
+<% for p in positions %>
+\entry{<< p.start >>--<< p.end >>}{\textbf{<< p.title >>}, << p.institution >><% if p.note %>. << p.note >><% endif %>}
+<% endfor %>

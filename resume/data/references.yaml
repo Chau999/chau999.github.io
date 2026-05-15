@@ -1,0 +1,27 @@
+# # Referees for fellowship / job applications.
+# # Each entry: { name, title, affiliation, email, relation }
+# #   - name        : "Prof.\\ Firstname Lastname"
+# #   - title       : their academic title (e.g. "Professor of Statistics")
+# #   - affiliation : their institution
+# #   - email       : contact email (rendered as a clickable mailto link)
+# #   - relation    : short note on the relationship (e.g. "PhD supervisor")
+# #
+# # Set to [] (empty list) or comment out all entries to omit the section.
+
+# - name: "Prof.\\ Dino Sejdinovic"
+#   title: "Professor of Statistical Machine Learning"
+#   affiliation: "University of Adelaide"
+#   email: ""
+#   relation: "DPhil supervisor"
+
+# - name: "Dr.\\ Krikamol Muandet"
+#   title: "Tenure-Track Faculty"
+#   affiliation: "CISPA Helmholtz Center for Information Security"
+#   email: ""
+#   relation: "Postdoctoral mentor"
+
+# # - name: "Prof.\\ ..."
+# #   title: "..."
+# #   affiliation: "..."
+# #   email: "..."
+# #   relation: "..."

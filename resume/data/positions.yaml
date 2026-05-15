@@ -1,0 +1,50 @@
+# Work experiences, newest first. Rendered as one chronological list.
+# Each entry: { start, end (or "Present"), title, institution, note }
+# The optional `type` field ("academic" / "industry") is kept as metadata
+# but does not affect rendering -- everything appears in one flat list.
+
+- start: 2025
+  end: "Present"
+  type: "academic"
+  title: "Assistant Professor"
+  institution: "College of Computing \\& Data Science, NTU Singapore"
+  note: ""
+
+- start: 2023
+  end: 2025
+  type: "academic"
+  title: "Postdoctoral Researcher"
+  institution: "CISPA Helmholtz Center for Information Security, Germany"
+  note: "Supervisor: Dr.\\ Krikamol Muandet"
+
+- start: 2023
+  end: 2024
+  tyep: "academic"
+  title: "Visiting Researcher"
+  institution: "Australian Institute for Machine Learning"
+
+- start: 2023
+  end: 2023
+  type: "academic"
+  title: "Research Assistant"
+  institution: "CISPA Helmholtz Center for Information Security, Germany"
+  note: ""
+
+- start: 2022
+  end: 2022
+  type: "industry"
+  title: "Applied Science Intern"
+  institution: "Amazon UK"
+
+- start: 2021
+  end: 2022
+  title: "Research Intern"
+  institution: "Max Planck Institute for Intelligent Systems"
+  note: "Supervisor: Dr. \\ Krikamol Muandet"
+# Example industry entry -- delete or replace with your own.
+# - start: 2022
+#   end: 2022
+#   type: "industry"
+#   title: "Research Intern"
+#   institution: "Microsoft Research, Cambridge, UK"
+#   note: "Mentor: Dr.\\ ..."

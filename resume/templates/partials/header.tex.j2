@@ -1,0 +1,28 @@
+<% if meta.photo %>
+% --- Header WITH photo: name/titles on the left, photo on the right. ---
+\noindent
+\begin{minipage}[c]{\dimexpr\linewidth-<< meta.photo_width >>-0.6cm\relax}
+\raggedright
+{\Huge\bfseries\color{accent} << meta.name >>}\\[6pt]
+<% for t in meta.titles %>
+<< t >><% if not loop.last %>\\[2pt]<% endif %>
+
+<% endfor %>
+\end{minipage}\hfill
+\begin{minipage}[c]{<< meta.photo_width >>}
+\includegraphics[width=\linewidth]{<< meta.photo >>}
+\end{minipage}
+\vspace{4pt}
+<% else %>
+% --- Header WITHOUT photo: centred name + titles. ---
+\begin{center}
+{\Huge\bfseries\color{accent} << meta.name >>}\\[6pt]
+<% for t in meta.titles %>
+<< t >><% if not loop.last %>\\[2pt]<% endif %>
+
+<% endfor %>
+\end{center}
+<% endif %>
+
+\section{Research Interests}
+<< meta.research_interests >>

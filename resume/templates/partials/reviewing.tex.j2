@@ -1,0 +1,27 @@
+<% if reviewing and (reviewing.conferences or reviewing.area_chair or reviewing.journals) %>
+\section{Reviewing Service}
+
+<% if reviewing.area_chair %>
+\subsection{Area Chair / Meta-Reviewer}
+\noindent
+<% for t in reviewing.area_chair -%>
+<< t.venue >>~(<< t.years | join(', ') >>)<% if not loop.last %>; <% else %>.<% endif %>
+<%- endfor %>
+<% endif %>
+
+<% if reviewing.conferences %>
+\subsection{Conference}
+\noindent
+<% for t in reviewing.conferences -%>
+<< t.venue >>~(<< t.years | join(', ') >>)<% if not loop.last %>; <% else %>.<% endif %>
+<%- endfor %>
+<% endif %>
+
+<% if reviewing.journals %>
+\subsection{Journal}
+\noindent
+<% for j in reviewing.journals -%>
+<< j.venue >><% if not loop.last %>; <% else %>.<% endif %>
+<%- endfor %>
+<% endif %>
+<% endif %>

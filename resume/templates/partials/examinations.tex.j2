@@ -1,0 +1,8 @@
+<% if examinations %>
+\section{PhD Thesis Examinations}
+\begin{itemize}
+<% for e in examinations %>
+  \item \textbf{<< e.name >>}, << e.level >>, << e.affiliation >>, \textit{<< e.thesis >>}<% if e.year %>, << e.year >><% endif %>.
+<% endfor %>
+\end{itemize}
+<% endif %>

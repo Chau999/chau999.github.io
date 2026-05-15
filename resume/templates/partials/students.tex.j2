@@ -1,0 +1,28 @@
+\section{Academic Supervision}
+
+<% if students.postdocs %>
+\subsection{Postdoctoral Fellows}
+\begin{itemize}
+<% for s in students.postdocs %>
+  \item \textbf{<< s.name >>} (<< s.institution >>, << s.role >>, << s.start >>--<< s.end >>). Project: \textit{<< s.project >>}.
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+<% if students.phd_students %>
+\subsection{PhD Students}
+\begin{itemize}
+<% for s in students.phd_students %>
+  \item \textbf{<< s.name >>} (<< s.institution >>, << s.role >>, << s.start >>--<< s.end >>). Project: \textit{<< s.project >>}.
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+<% if students.ug_and_msc %>
+\subsection{Undergraduate \& Master Students}
+\begin{itemize}
+<% for s in students.ug_and_msc %>
+  \item \textbf{<< s.name >>} (<< s.institution >>, << s.role >>, << s.start >>--<< s.end >>). Project: \textit{<< s.project >>}.
+<% endfor %>
+\end{itemize}
+<% endif %>

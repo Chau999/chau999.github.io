@@ -1,0 +1,38 @@
+# PhD / MPhil thesis examinations.
+# Rendered as:
+#   <name>, <level>, <affiliation>, "<thesis>", <year>.
+#
+# Each entry: { name, level, affiliation, thesis, year }
+#   - name        : candidate's name (rendered in bold)
+#   - level       : "Ph.D." / "M.Phil." / "Masters" ...
+#   - affiliation : full institution name (use \& for the ampersand)
+#   - thesis      : thesis title (use Title Case; quotes added automatically)
+#   - year        : year of examination (optional)
+
+- name: "Wang Ziyan"
+  level: "Ph.D."
+  affiliation: "College of Computing \\& Data Science, NTU"
+  thesis: "Bridging Semantic and Collaborative Signals for LLM-based Recommendation"
+  role: "Examiner"
+  year: "2026"
+
+- name: "Li Haoxin"
+  level: "Ph.D."
+  affiliation: "College of Computing \\& Data Science, NTU"
+  thesis: "Mitigating Shortcut Learning and Improving Out-of-Distribution Generalization for Vision and Vision-Language Models"
+  role: "Examiner"
+  year: "2026"
+
+- name: "Deng Zichao"
+  level: "Ph.D."
+  affiliation: "College of Computing \\& Data Science, NTU"
+  thesis: "Towards Trustworthy Graph Learning: Robustness, Privacy, and Fairness"
+  role: "Examiner"
+  year: "2026"
+
+- name: "Dong Junhao"
+  level: "Ph.D."
+  affiliation: "College of Computing \\& Data Science, NTU"
+  thesis: "Towards Generalizing Adversarial Robustness in Deep Learning"
+  role: "Examiner"
+  year: "2026"

@@ -1,0 +1,27 @@
+# Workshop organisation and professional memberships.
+
+workshops:
+  - role: "Organiser"
+    name: "Second Workshop on Epistemic Intelligence in Machine Learning"
+    venue: "ICML 2026"
+  - role: "Organiser"
+    name: "First Workshop on Epistemic Intelligence in Machine Learning"
+    venue: "EurIPS 2025"
+
+memberships:
+  - role: "Member"
+    org: "Institute of Mathematical Statistics"
+    start: 2026
+    end: "Present"
+  - role: "Member"
+    org: "Association for the Advancement of Artificial Intelligence (AAAI)"
+    start: 2025
+    end: "Present"
+  - role: "Fellow"
+    org: "Royal Statistical Society"
+    start: 2025
+    end: "Present"
+  - role: "Member"
+    org: "The Society for Imprecise Probabilities: Theory and Applications (SIPTA)"
+    start: 2024
+    end: "Present"

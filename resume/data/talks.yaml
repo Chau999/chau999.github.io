@@ -1,0 +1,72 @@
+# Invited presentations, grouped by type.
+# guest_lectures and invited_talks are separate lists.
+
+guest_lectures:
+  - year: 2026
+    venue: "SIPTA (Society of Imprecise Probability: Theory and Application) Summer School"
+    note: ""
+
+# Invited talks: one entry per venue. If you've spoken at the same venue
+# multiple times, list the years together.
+# Each entry: { years: [year, year, ...], venue }
+invited_talks:
+  - years: [2026, 2022]
+    venue: "University of Oxford"
+  - years: [2026]
+    venue: "University of Manchester"
+  - years: [2025, 2024]
+    venue: "LMU Munich"
+  - years: [2025]
+    venue: "University of Hong Kong"
+  - years: [2025]
+    venue: "Chinese University of Hong Kong"
+  - years: [2025]
+    venue: "City University of Hong Kong"
+  - years: [2025]
+    venue: "A*STAR"
+  - years: [2025]
+    venue: "DFKI"
+  - years: [2025]
+    venue: "Toyota Motor Corporation"
+  - years: [2025]
+    venue: "NUS"
+  - years: [2025]
+    venue: "Amazon Web Services Berlin"
+  - years: [2024]
+    venue: "UCL Statistical Science"
+  - years: [2024, 2022]
+    venue: "Gatsby Computational Neuroscience Unit, UCL"
+  - years: [2024]
+    venue: "University of Adelaide"
+  - years: [2024]
+    venue: "NTU"
+  - years: [2023]
+    venue: "ETH AI Center"
+  - years: [2023]
+    venue: "ETH D-MTEC"
+  - years: [2023]
+    venue: "Australian Data Science Network"
+  - years: [2023]
+    venue: "Data61, Melbourne"
+  - years: [2023]
+    venue: "Australian National University"
+  - years: [2023]
+    venue: "University of Melbourne"
+  - years: [2023]
+    venue: "AIML Adelaide"
+  - years: [2023]
+    venue: "Oxford-Man Institute"
+  - years: [2023]
+    venue: "Oxford Strategy Group Digital"
+  - years: [2023]
+    venue: "CISPA"
+  - years: [2022]
+    venue: "ELISE Theory Workshop, Eurecom"
+  - years: [2022]
+    venue: "ECML-PKDD"
+  - years: [2022]
+    venue: "Alan Turing Institute"
+  - years: [2022]
+    venue: "Imperial \\& Oxford STATML Seminar"
+  - years: [2021]
+    venue: "Warwick ML Group"

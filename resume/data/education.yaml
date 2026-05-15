@@ -1,0 +1,14 @@
+# Education, newest first.
+# Each entry: { start, end, degree, institution, note }
+
+- start: 2018
+  end: 2023
+  degree: "DPhil in Statistics"
+  institution: "University of Oxford"
+  note: "EPSRC \\& MRC Studentship. Supervisor: Prof.\\ Dino Sejdinovic."
+
+- start: 2014
+  end: 2018
+  degree: "MMath in Mathematics and Statistics"
+  institution: "University of Oxford"
+  note: "Ranked 1st in 3rd year. Master thesis supervisors: Prof.\\ Mihaela van der Schaar and Prof.\\ Geoff Nicholls."

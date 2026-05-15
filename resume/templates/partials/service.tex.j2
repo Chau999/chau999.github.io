@@ -1,0 +1,15 @@
+\section{Workshop Organisation \& Professional Memberships}
+
+<% if service.workshops %>
+\subsection{Workshops}
+<% for w in service.workshops %>
+\entry{<< w.role >>}{<< w.name >>, << w.venue >>}
+<% endfor %>
+<% endif %>
+
+<% if service.memberships %>
+\subsection{Memberships}
+<% for m in service.memberships %>
+\entry{<< m.start >>--<< m.end >>}{<< m.role >>, << m.org >>}
+<% endfor %>
+<% endif %>

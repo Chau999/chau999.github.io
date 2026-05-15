@@ -1,0 +1,35 @@
+# Personal info, contact, and research interests.
+# These appear at the top of the CV.
+
+name: "Siu Lun Chau"
+titles:
+  - "Assistant Professor @ College of Computing \\& Data Science, Nanyang Technological University"
+  - "Principal Investigator @ Epistemic Intelligence \\& Computation Lab"
+
+# Optional headshot. Drop a JPG/PNG/PDF in the project folder and put its
+# filename here (e.g. "photo.jpg" or "assets/headshot.png"). Leave the
+# string empty ("") to render the header centred without a photo.
+photo: "headshot.jpg"              # path relative to this folder
+photo_width: "3cm"     # width on page; bump up/down to taste
+
+# Optional contact line. Leave any field blank ("") to omit it.
+contact:
+  email: ""
+  website: ""
+  github: ""
+  scholar: ""
+  orcid: ""
+
+# In the publication list, wrap any author matching this surname + initials
+# in \textbf{...}. Set to null to disable.
+bold_self:
+  surname: "Chau"
+  initials: "S.L."
+
+research_interests: >
+  My research focuses on building safe and reliable AI by advancing the
+  principles necessary to develop epistemically intelligent systems --
+  machine learning systems that can recognise, reason about, and communicate
+  the limits of their knowledge. To achieve this, my research spans
+  foundational theory to translational applications of imprecise
+  probabilities as the main pillar for trustworthy AI.

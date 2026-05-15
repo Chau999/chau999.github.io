@@ -1,0 +1,12 @@
+# Teaching record.
+# Each entry: { code, title, role, term }
+
+- code: "SC1004"
+  title: "Linear Algebra for Computing"
+  role: "Tutorial (Sem 1) \\& Lecture (Sem 2)"
+  term: "AY2025--26"
+
+- code: "SC3021"
+  title: "Foundations of Data Science"
+  role: "Tutorial (Sem 2)"
+  term: "AY2025--26"

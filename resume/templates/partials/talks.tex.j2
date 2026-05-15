@@ -1,0 +1,14 @@
+\section{Invited Presentations}
+
+<% if talks.guest_lectures %>
+\subsection{Guest Lectures}
+<% for g in talks.guest_lectures %>
+\entry{<< g.year >>}{<< g.venue >><% if g.note %>. << g.note >><% endif %>}
+<% endfor %>
+<% endif %>
+
+\subsection{Invited Talks}
+\noindent
+<% for t in talks.invited_talks -%>
+<< t.venue >>~(<< t.years | join(', ') >>)<% if not loop.last %>; <% else %>.<% endif %>
+<%- endfor %>

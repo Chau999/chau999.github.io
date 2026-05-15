@@ -1,0 +1,37 @@
+\section{Publications}
+<% include 'partials/bibliometrics.tex.j2' %>
+<% if publications.conference %>
+\subsection{Conference Papers}
+\begin{publist}
+<% for p in publications.conference %>
+  \item[\textbf{<< p.label >>.}] << p.authors >>. ``<< p.title >>.'' \emph{<< p.venue >>}<% if p.year %>, << p.year >><% endif %>.<% if p.pdf %>\pubbadge{<< p.pdf >>}{pdf}<% endif %><% if p.code %>\pubbadge{<< p.code >>}{code}<% endif %><% if p.video %>\pubbadge{<< p.video >>}{video}<% endif %><% if p.award %>\ \textcolor{award}{\textbf{(<< p.award >>)}}<% endif %>
+<% endfor %>
+\end{publist}
+<% endif %>
+
+<% if publications.journal %>
+\subsection{Journal Papers}
+\begin{publist}
+<% for p in publications.journal %>
+  \item[\textbf{<< p.label >>.}] << p.authors >>. ``<< p.title >>.'' \emph{<< p.venue >>}<% if p.year %>, << p.year >><% endif %>.<% if p.pdf %>\pubbadge{<< p.pdf >>}{pdf}<% endif %><% if p.code %>\pubbadge{<< p.code >>}{code}<% endif %><% if p.video %>\pubbadge{<< p.video >>}{video}<% endif %><% if p.award %>\ \textcolor{award}{\textbf{(<< p.award >>)}}<% endif %>
+<% endfor %>
+\end{publist}
+<% endif %>
+
+<% if publications.working %>
+\subsection{Preprints}
+\begin{publist}
+<% for p in publications.working %>
+  \item[\textbf{<< p.label >>.}] << p.authors >>. ``<< p.title >>.''<% if p.venue %> \emph{<< p.venue >>}.<% endif %><% if p.pdf %>\pubbadge{<< p.pdf >>}{pdf}<% endif %><% if p.code %>\pubbadge{<< p.code >>}{code}<% endif %><% if p.video %>\pubbadge{<< p.video >>}{video}<% endif %>
+<% endfor %>
+\end{publist}
+<% endif %>
+
+<% if publications.other %>
+\subsection{Theses}
+\begin{publist}
+<% for p in publications.other %>
+  \item[\textbf{T<< loop.index >>.}] <% if p.authors %><< p.authors >>. <% endif %>``<< p.title >>.''<% if p.venue %> \emph{<< p.venue >>}<% endif %><% if p.year %>, << p.year >><% endif %>.<% if p.pdf %>\pubbadge{<< p.pdf >>}{pdf}<% endif %>
+<% endfor %>
+\end{publist}
+<% endif %>

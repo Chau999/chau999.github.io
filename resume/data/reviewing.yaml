@@ -1,0 +1,40 @@
+# Reviewing & programme committee service.
+# Rendered as compact inline lists (same style as Invited Talks).
+# Use { years: [...], venue: "..." } -- multiple years on the same venue
+# go in the years list.
+
+# Conferences you've reviewed for.
+# Years for NeurIPS / AISTATS / ECML-PKDD were extended to include every
+# year you appeared as first or co-first author at that venue
+# (derived from publications.bib). Adjust as needed.
+conferences:
+  - years: [2025, 2024, 2023, 2022, 2021]
+    venue: "NeurIPS"
+  - years: [2025, 2024]
+    venue: "ICML"
+  - years: [2025]
+    venue: "AAAI"
+  - years: [2025, 2024, 2022]
+    venue: "AISTATS"
+  - years: [2025]
+    venue: "UAI"
+  - years: [2022]
+    venue: "ECML-PKDD"
+  # - years: [2025]
+  #   venue: "ICLR"
+
+# Area Chair / Meta-Reviewer / Senior Programme Committee roles.
+# Leave empty if none.
+area_chair: []
+# Example:
+# area_chair:
+#   - years: [2026]
+#     venue: "ICML"
+
+# Journal reviewing. Year not usually meaningful here -- just the venue.
+journals:
+  - venue: "Journal of the American Statistical Association (JASA)"
+  - venue: "Pattern Analysis and Machine Intelligence (TPAMI)"
+  - venue: "Transactions on Machine Learning Research (TMLR)"
+  - venue: "International Journal of Approximate Reasoning (IJAR)"
+  - venue: "Statistics and Computing"

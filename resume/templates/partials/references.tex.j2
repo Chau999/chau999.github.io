@@ -1,0 +1,8 @@
+<% if references %>
+\section{References}
+\begin{itemize}
+<% for r in references %>
+  \item \textbf{<< r.name >>}<% if r.title %>, << r.title >><% endif %><% if r.affiliation %>, << r.affiliation >><% endif %>.<% if r.relation %> \emph{<< r.relation >>}.<% endif %><% if r.email %> \href{mailto:<< r.email >>}{\textcolor{accent}{<< r.email >>}}<% endif %>
+<% endfor %>
+\end{itemize}
+<% endif %>

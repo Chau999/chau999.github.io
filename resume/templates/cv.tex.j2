@@ -1,0 +1,88 @@
+% !TEX program = pdflatex
+%
+% AUTO-GENERATED FILE -- DO NOT EDIT BY HAND.
+% Edit data/*.yaml and publications.bib, then run `make`.
+%
+\documentclass[11pt,a4paper]{article}
+
+% ---------- Packages ----------
+\usepackage[margin=2cm,top=2.2cm,bottom=2.2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{charter}                        % Bitstream Charter -- main body font
+\linespread{1.05}                           % a touch more line-height for Charter
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[skip=3pt plus 1pt minus 1pt]{parskip}
+\usepackage{etoolbox}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true,linkcolor=accent,urlcolor=accent,citecolor=accent}
+
+% ---------- Colours ----------
+\definecolor{accent}{HTML}{1F4E79}
+\definecolor{award}{HTML}{B22222}     % firebrick red, for paper honours
+
+% ---------- Layout knobs ----------
+\setcounter{secnumdepth}{0}                 % unnumbered sections
+\titleformat{\section}{\Large\bfseries\color{accent}}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{3pt}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{5pt}{1pt}
+
+\setlist[itemize]{leftmargin=*,topsep=1pt,partopsep=0pt,itemsep=1pt,parsep=0pt}
+
+% Publication list: empty default label so each \item supplies its own
+% (e.g. \item[\textbf{C19.}]). The label sits in a fixed-width column.
+\newlist{publist}{itemize}{1}
+\setlist[publist]{label={},leftmargin=2.8em,labelwidth=2.4em,labelsep=0.4em,
+  labelindent=0pt,topsep=1pt,itemsep=2pt,parsep=0pt}
+
+% ---------- Helpers ----------
+% Two-column entry: \entry{LEFT}{RIGHT}.
+% \entrylabelwidth = width of the left (label) column. Bump this if your dates
+% or codes are wider than the current setting. \entrygap = whitespace between
+% label and content.
+\newlength{\entrylabelwidth}\setlength{\entrylabelwidth}{2.8cm}
+\newlength{\entrygap}\setlength{\entrygap}{0.6cm}
+\newcommand{\entry}[2]{%
+  \noindent\makebox[\entrylabelwidth][l]{\textbf{#1}}%
+  \hspace{\entrygap}%
+  \parbox[t]{\dimexpr\linewidth-\entrylabelwidth-\entrygap\relax}{#2}%
+  \par\vspace{0pt}}
+% Link badge for publication pdf/code/video
+\newcommand{\pubbadge}[2]{\,\href{#1}{\textcolor{accent}{\small[#2]}}}
+
+% ---------- Page numbers + footer ----------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\small\color{accent}<< meta.name >> --- CV}
+\fancyfoot[C]{\small\color{accent}Last updated: << today >>}
+\fancyfoot[R]{\small\color{accent}\thepage~/~\pageref*{LastPage}}
+% Repeat on the first page too (otherwise the plain style would suppress it).
+\fancypagestyle{plain}{\fancyhf{}\renewcommand{\headrulewidth}{0pt}%
+  \fancyfoot[L]{\small\color{accent}<< meta.name >> --- CV}%
+  \fancyfoot[C]{\small\color{accent}Last updated: << today >>}%
+  \fancyfoot[R]{\small\color{accent}\thepage~/~\pageref*{LastPage}}}
+
+\begin{document}
+
+<% include 'partials/header.tex.j2' %>
+<% include 'partials/positions.tex.j2' %>
+<% include 'partials/education.tex.j2' %>
+<% include 'partials/awards.tex.j2' %>
+<% include 'partials/publications.tex.j2' %>
+<% include 'partials/talks.tex.j2' %>
+<% include 'partials/reviewing.tex.j2' %>
+<% include 'partials/service.tex.j2' %>
+<% include 'partials/funding.tex.j2' %>
+<% include 'partials/teaching.tex.j2' %>
+<% include 'partials/students.tex.j2' %>
+<% include 'partials/examinations.tex.j2' %>
+<% include 'partials/references.tex.j2' %>
+
+\end{document}

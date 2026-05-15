@@ -1,0 +1,23 @@
+# Awards and recognition. Year first, newest at the top.
+# Each entry: { year, name, note }
+
+- year: 2025
+  name: "Global Research Excellence Award for Travel (Faculty award) 2025"
+  note: "NTU"
+
+- year: 2025
+  name: "First Prize, IJAR Young Researcher Award 2025"
+  note: ""
+
+# Paper honours grouped into one entry; keep them visible together.
+- year: 2023
+  name: "ICML 2026 Spotlight \\textbullet{} UAI 2025 Oral \\textbullet{} ICML 2024 Spotlight \\textbullet{} AAAI 2024 Oral \\textbullet{} NeurIPS 2023 Spotlight"
+  note: ""
+
+- year: 2018
+  name: "EPSRC \\& MRC Doctoral Studentship"
+  note: "2018--2023"
+
+- year: 2017
+  name: "Department Prize for FHS Mathematics and Statistics Part B, 2017"
+  note: "University of Oxford"
