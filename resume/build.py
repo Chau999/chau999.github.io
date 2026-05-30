@@ -125,6 +125,13 @@ _CONFERENCE_KEYWORDS = [
 
 
 def classify(entry: dict) -> str:
+    # Explicit override via a custom `category` field in the .bib entry.
+    # This wins over any venue/entry-type heuristics below, so a workshop
+    # paper whose booktitle looks like a conference still lands correctly.
+    explicit = (entry.get("category") or "").strip().lower()
+    if explicit in {"workshop", "non-archival", "nonarchival", "non_archival", "ws"}:
+        return "workshop"
+
     venue = (entry.get("journal") or entry.get("booktitle") or "").lower()
     etype = entry.get("ENTRYTYPE", "").lower()
 
@@ -210,6 +217,7 @@ def load_publications(bib_path: Path, bold_re: re.Pattern | None = None) -> dict
     return {
         "journal":    _assign_numbers([e for e in entries if e["category"] == "journal"], "J"),
         "conference": _assign_numbers([e for e in entries if e["category"] == "conference"], "C"),
+        "workshop":   _assign_numbers([e for e in entries if e["category"] == "workshop"], "WS"),
         "working":    _assign_numbers([e for e in entries if e["category"] == "working"], "W"),
         "other":      [e for e in entries if e["category"] == "other"],
     }
@@ -318,6 +326,7 @@ def main(argv=None):
         f"  Publications: {total} total "
         f"({len(pubs['journal'])} journal, "
         f"{len(pubs['conference'])} conference, "
+        f"{len(pubs['workshop'])} workshop, "
         f"{len(pubs['working'])} working, "
         f"{len(pubs['other'])} other)"
     )

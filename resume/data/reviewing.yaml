@@ -16,6 +16,8 @@ conferences:
     venue: "AAAI"
   - years: [2025, 2024, 2022]
     venue: "AISTATS"
+  - years: [2026]
+    venue: "STAI-X"
   - years: [2025]
     venue: "UAI"
   - years: [2022]

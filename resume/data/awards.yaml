@@ -1,6 +1,10 @@
 # Awards and recognition. Year first, newest at the top.
 # Each entry: { year, name, note }
 
+- year: 2026
+  name: "ICML Silver Reviewer Award"
+  note: ""
+
 - year: 2025
   name: "Global Research Excellence Award for Travel (Faculty award) 2025"
   note: "NTU"

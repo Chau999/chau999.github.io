@@ -13,11 +13,18 @@
   title: "Sponsorship for EIML@EurIPS 2025"
   source: "ELLIS Unit Manchester Event Support Fund"
   amount: "GBP 4,000"
-  role: "Applicatant"
+  role: "Applicant"
 
 - start: 2026
   end: 2026
   title: "Sponsorship for EIML@ICML 2026"
   source: "ELLIS Unit Manchester Event Support Fund"
   amount: "GBP 4,000"
-  role: "Applicatant"
+  role: "Applicant"
+
+- start: 2026
+  end: 2027
+  title: "Funding for Visiting Student"
+  source: "IEEE CIS Education Graduate Student Grants"
+  amount: "USD 3,900"
+  role: "Applicant"

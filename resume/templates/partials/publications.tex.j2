@@ -9,6 +9,15 @@
 \end{publist}
 <% endif %>
 
+<% if publications.workshop %>
+\subsection{Workshop \& Non-Archival Papers}
+\begin{publist}
+<% for p in publications.workshop %>
+  \item[\textbf{<< p.label >>.}] << p.authors >>. ``<< p.title >>.'' \emph{<< p.venue >>}<% if p.year %>, << p.year >><% endif %>.<% if p.pdf %>\pubbadge{<< p.pdf >>}{pdf}<% endif %><% if p.code %>\pubbadge{<< p.code >>}{code}<% endif %><% if p.video %>\pubbadge{<< p.video >>}{video}<% endif %><% if p.award %>\ \textcolor{award}{\textbf{(<< p.award >>)}}<% endif %>
+<% endfor %>
+\end{publist}
+<% endif %>
+
 <% if publications.journal %>
 \subsection{Journal Papers}
 \begin{publist}
