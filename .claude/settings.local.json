@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i '' 's|../assets/research_presentation/2026-IIPM.pdf|../assets/documents/presentations/2026-iipm.pdf|g' _talks/2026-manchester.md _talks/2026-oxford.md)",
+      "Bash(sed -i '' 's|../assets/research_presentation/2025-spatiotemporal-causality.pdf|../assets/documents/presentations/2025-spatiotemporal-causality.pdf|g' _talks/2025-spatiotemporal-causality.md)",
+      "Bash(git mv:*)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(git rm:*)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//Users/slchau/Documents/research_projects/chau999.github.io/**)",
+      "Bash(done)",
+      "Bash(bundle exec:*)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ]
+  }
+}

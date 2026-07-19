@@ -1,5 +1,6 @@
 # _plugins/bibtex_reader.rb
-# Parses _data/publications.bib and exposes entries as site.data['bib_pubs'].
+# Parses resume/publications.bib (the single source of truth, shared with the
+# LaTeX CV build) and exposes entries as site.data['bib_pubs'].
 # Each entry hash contains all parsed BibTeX fields plus:
 #   'key'             => BibTeX cite key
 #   'type'            => entry type (article, inproceedings, …)
@@ -33,9 +34,18 @@ module Jekyll
       publisher organization school address edition note
     ].freeze
 
+    # Single source of truth for all publications: resume/publications.bib.
+    # The LaTeX CV build (resume/build.py) reads the same file, so the website
+    # and the PDF CV never drift apart.
+    BIB_RELATIVE_PATH = File.join('resume', 'publications.bib').freeze
+
     def generate(site)
-      bib_path = File.join(site.source, '_data', 'publications.bib')
-      return unless File.exist?(bib_path)
+      bib_path = File.join(site.source, BIB_RELATIVE_PATH)
+      unless File.exist?(bib_path)
+        Jekyll.logger.warn 'BibtexReader:', "missing #{BIB_RELATIVE_PATH}; site.data['bib_pubs'] will be empty"
+        site.data['bib_pubs'] = []
+        return
+      end
 
       site.data['bib_pubs'] = parse_bibtex(File.read(bib_path))
     end
