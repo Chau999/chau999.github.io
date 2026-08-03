@@ -1,6 +1,12 @@
 items:
 
   # ── 2026 ──────────────────────────────────────────────────────────────────
+  - title: "When One Probability is Not Enough: On Second-order Uncertainty Formalisms in AI"
+    venue: "CISPA Helmholtz Center for Information Security"
+    location: "Saarbrucken Germany"
+    date: "Aug 2026"
+    sortdate: "2026-08-03"
+    slides: "/assets/documents/presentations/2026-creDRO.pdf"
 
   - title: "Recent Advances in Imprecise Probabilistic Machine Learning"
     venue: "Department of Statistics, University of Oxford"
