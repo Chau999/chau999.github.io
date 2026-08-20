@@ -8,6 +8,13 @@ items:
     sortdate: "2026-08-03"
     slides: "/assets/documents/presentations/2026-creDRO.pdf"
 
+  - title: "Imprecise Probabilistic Machine Learning"
+    venue: "SIPTA Summer School 2026"
+    location: "Munich"
+    date: "Jul 2026"
+    sortdate: "2026-07-28"
+#    slides: "/assets/documents/presentations/2026-creDRO.pdf"
+
   - title: "Recent Advances in Imprecise Probabilistic Machine Learning"
     venue: "Department of Statistics, University of Oxford"
     location: "Oxford, United Kingdom"

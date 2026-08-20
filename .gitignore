@@ -4,5 +4,7 @@ _site/
 .jekyll-metadata
 vendor
 
-# Private resume sources and generated files
-/resume/
+# Private resume sources and generated files. The publication bibliography is
+# public website data and must be present in clean GitHub Actions checkouts.
+/resume/*
+!/resume/publications.bib

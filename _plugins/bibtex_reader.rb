@@ -42,9 +42,8 @@ module Jekyll
     def generate(site)
       bib_path = File.join(site.source, BIB_RELATIVE_PATH)
       unless File.exist?(bib_path)
-        Jekyll.logger.warn 'BibtexReader:', "missing #{BIB_RELATIVE_PATH}; site.data['bib_pubs'] will be empty"
-        site.data['bib_pubs'] = []
-        return
+        raise Jekyll::Errors::FatalException,
+              "BibtexReader: missing #{BIB_RELATIVE_PATH}; refusing to build an empty publication page"
       end
 
       site.data['bib_pubs'] = parse_bibtex(File.read(bib_path))
