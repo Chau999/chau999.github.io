@@ -6,7 +6,7 @@ items:
     location: "Online"
     date: "Oct 2026"
     sortdate: "2026-10-06"
-#    slides: "/assets/documents/presentations/2026-creDRO.pdf"
+    slides: "/assets/documents/presentations/2026-uncertain_predictions.pdf"
 
   - title: "When One Probability is Not Enough: On Second-order Uncertainty Formalisms in AI"
     venue: "CISPA Helmholtz Center for Information Security"
