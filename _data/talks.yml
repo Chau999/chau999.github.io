@@ -1,6 +1,14 @@
 items:
 
   # ── 2026 ──────────────────────────────────────────────────────────────────
+
+  - title: "From Credal Learning to Learning from Credence"
+    venue: "Oxford Dynamics"
+    location: "Online"
+    date: "Oct 2026"
+    sortdate: "2026-10-15"
+    slides: "/assets/documents/presentations/2026-credence-learning.pdf"
+
   - title: "From Uncertain Predictions to Uncertain  Explanations with Gaussian Processes"
     venue: "AI Technology for Life Group, Utrect University"
     location: "Online"
@@ -20,7 +28,7 @@ items:
     location: "Munich"
     date: "Jul 2026"
     sortdate: "2026-07-28"
-#    slides: "/assets/documents/presentations/2026-creDRO.pdf"
+  #    slides: "/assets/documents/presentations/2026-creDRO.pdf"
 
   - title: "Recent Advances in Imprecise Probabilistic Machine Learning"
     venue: "Department of Statistics, University of Oxford"
