@@ -2,6 +2,20 @@ items:
 
   # ── 2026 ──────────────────────────────────────────────────────────────────
 
+  - title: "Explainable Kernel Machines with Shapley values"
+    venue: "Workshop on Functional Inference and Machine Intelligence (FIMI Down Under 2026)"
+    venue_url: "https://kips-lab.github.io/fimi-downunder/#speakers"
+    location: "Adelaide, Australia"
+    date: "Dec 2026"
+    sortdate: "2026-12-13" # Workshop start; the individual talk date has not been announced.
+
+  - title: "Beyond Prediction-Set Size: Quantifying Conformal Uncertainty through Credal Geometry"
+    venue: "AIVP Workshop on Optimisation and Uncertainty in Foundation Models"
+    venue_url: "https://sites.google.com/view/aivp-foundation-models/workshop?authuser=0"
+    location: "Nanyang Technological University, Singapore"
+    date: "Nov 2026"
+    sortdate: "2026-11-25"
+
   - title: "From Credal Learning to Learning from Credence"
     venue: "Oxford Dynamics"
     location: "Online"

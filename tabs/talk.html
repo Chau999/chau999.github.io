@@ -53,7 +53,9 @@ permalink: /presentations/
         {{ talk.title }}
         {% if talk.slides %}<a href="{{ talk.slides }}" style="font-weight:normal; font-size:0.85em;">[slides]</a>{% endif %}
       </div>
-      <div class="talk-venue">{{ talk.venue }}</div>
+      <div class="talk-venue">
+        {% if talk.venue_url %}<a href="{{ talk.venue_url | escape }}">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}
+      </div>
       <div class="talk-location">{{ talk.location }}</div>
     </div>
   </div>
