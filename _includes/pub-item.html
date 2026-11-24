@@ -8,7 +8,7 @@
     {{ _authors }}
   </div>
   <div class="pubinfo">
-    {% if include.pub.award %}<span class="pubaward">({{ include.pub.award }})</span> {% endif %}{{ include.pub.venue }}, {{ include.pub.year }}
+    {% if include.pub.award %}<span class="pubaward">({{ include.pub.award }})</span> {% endif %}{{ include.pub.venue }}, {{ include.pub.year }}{% if include.pub.note %} ({{ include.pub.note }}){% endif %}
   </div>
   <div class="publinks">
     {% if include.pub.pdf %}<a href="{{ include.pub.pdf }}" class="border">PDF</a> {% endif %}
